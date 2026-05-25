@@ -15,6 +15,11 @@ dist-ssr
 # Test fixtures (generated — run: python3 tools/tks_to_json.py --batch)
 test-fixtures/
 
+# Python tooling venv
+tools/.venv/
+tools/__pycache__/
+.pytest_cache/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

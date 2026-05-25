@@ -18,13 +18,14 @@ reference material, see the root `../CLAUDE.md` first.
 ```
 TkScore4/
   src/
-    __tests__/      Unit tests (*.test.ts)
-    components/     Vue components
-    assets/         Static assets
-    main.ts         App entry point
-    App.vue         Root component
+    __tests__/           Unit tests (*.test.ts) — run with npm test
+    components/          Vue components
+    assets/              Static assets
+    main.ts              App entry point
+    App.vue              Root component
   tools/
-    tks_to_json.py  .tks → JSON converter (Python, dev tool)
+    tks_to_json.py       .tks → JSON converter (Python, dev tool)
+    test_tks_to_json.py  Tests for the converter — run with pytest (see below)
   public/
 ```
 
@@ -104,10 +105,35 @@ The golden `.txt` filenames encode the show: `120526e_36_3.txt` means show `1205
 
 ## Testing conventions
 
+### TypeScript (Vitest)
 - Test files live in `src/__tests__/` as `*.test.ts`
 - Use `describe` / `it` / `expect` (Vitest globals, no imports needed)
-- Fixture JSON files go in `test-fixtures/` (gitignored if large; document the generate step)
-- A feature is not done until at least one golden file pair passes end-to-end
+- Fixture JSON files go in `test-fixtures/` (gitignored; generate with `python3 tools/tks_to_json.py --batch`)
+- **A feature is not done until at least one golden file pair passes end-to-end**
+
+### Python tools (pytest)
+The tools directory has its own test suite. One-time setup:
+
+```bash
+python3 -m venv tools/.venv
+tools/.venv/bin/pip install pytest
+```
+
+Run converter tests:
+
+```bash
+tools/.venv/bin/pytest tools/test_tks_to_json.py -v
+```
+
+**Rule:** Any change to `tools/tks_to_json.py` must be accompanied by a passing test run.
+The test suite covers: primitives, collections, edge cases (`undef`, escaped quotes,
+integer vs string cat IDs), error handling, file I/O, and a smoke test of all 9 real
+`.tks` files in the 2013 golden corpus.
+
+### General
+- Write the test before (or immediately after) writing the code — not as an afterthought
+- Every new parsing rule, calculation, or report section gets a test
+- If you fix a bug, add a regression test for the specific case that was broken
 
 ## Architecture notes
 
