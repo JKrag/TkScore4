@@ -1,0 +1,51 @@
+name: CI
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+
+jobs:
+  js:
+    name: Type-check, test, build
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Type-check
+        run: npx vue-tsc -b --noEmit
+
+      - name: Unit tests
+        run: npm test
+
+      - name: Production build
+        run: npx vite build
+
+  python-tools:
+    name: Converter tests (pytest)
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: tools/requirements.txt
+
+      - name: Install pytest
+        run: pip install pytest
+
+      - name: Run converter tests
+        run: python -m pytest tools/test_tks_to_json.py -v
+        # Tests that require the golden corpus (../TkScore_Win/2013/) auto-skip
+        # when that directory is absent, so no --ignore flag needed.
