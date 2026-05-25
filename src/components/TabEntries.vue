@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue'
+import { ref, computed, nextTick } from 'vue'
 import type { Catalog } from '../scoring/types'
 import {
-  allEntryNumbers, isInFinals,
+  allEntryNumbers,
   setEntryName, setEntryBreed, addEntry, removeEntry,
 } from '../catalog/index'
 
@@ -10,13 +10,23 @@ const props = defineProps<{ catalog: Catalog }>()
 
 // ── Sorted entry list ─────────────────────────────────────────────────────────
 
-const rows = computed(() =>
-  allEntryNumbers(props.catalog).map(num => ({
+const rows = computed(() => {
+  const inFinalsSet = new Set<string>()
+  for (const show of props.catalog.shows) {
+    for (const ring of show.rings) {
+      for (const finals of Object.values(ring.finals)) {
+        for (const rank of finals.rank) {
+          if (rank != null) inFinalsSet.add(String(rank))
+        }
+      }
+    }
+  }
+  return allEntryNumbers(props.catalog).map(num => ({
     num,
     entry: props.catalog.entries[num] ?? { name: '', breed: '' },
-    inFinals: isInFinals(props.catalog, num),
+    inFinals: inFinalsSet.has(num),
   }))
-)
+})
 
 // ── Add-entry form ────────────────────────────────────────────────────────────
 
@@ -31,8 +41,7 @@ function openAdd() {
   addNum.value = ''
   addName.value = ''
   addBreed.value = ''
-  // focus the entry number field on next tick
-  setTimeout(() => addNumInput.value?.focus(), 0)
+  nextTick(() => addNumInput.value?.focus())
 }
 
 function commitAdd() {

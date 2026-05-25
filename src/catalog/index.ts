@@ -75,14 +75,6 @@ export function removeRing(catalog: Catalog, showIdx: number, ringIdx: number) {
   show.nrings = show.rings.length
 }
 
-export function updateRingName(ring: Ring, name: string) {
-  ring.name = name
-  // Only auto-update judge initials if they still match the old auto-generated value
-  // (i.e. user hasn't manually edited them). We do this by checking if current judge
-  // equals what initials() would have produced for the old name.
-  ring.judge = initials(name)
-}
-
 // ── Finals helpers ────────────────────────────────────────────────────────────
 
 /**
@@ -123,7 +115,7 @@ export function activeClassesForShow(show: Show): string[] {
   return CLASS_ORDER.filter(cls =>
     show.rings.some(ring => {
       const v = ring.classes[cls]
-      return v !== null && v !== undefined && v !== 0 && v !== '' && v !== '0'
+      return Boolean(v) && v !== '0'
     })
   )
 }
