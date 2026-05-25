@@ -10,7 +10,7 @@
  *   python3 tools/tks_to_json.py --batch ../TkScore_Win/2013/ test-fixtures/
  */
 
-import { readFileSync } from 'fs'
+import { readFileSync, existsSync } from 'fs'
 import { resolve } from 'path'
 import { describe, it, expect } from 'vitest'
 import { generateReport, compileReport } from '../scoring/report'
@@ -18,6 +18,7 @@ import type { Catalog } from '../scoring/types'
 
 const fixtureDir = resolve(__dirname, '../../test-fixtures')
 const goldenDir = resolve(__dirname, '../../../TkScore_Win/2013')
+const fixturesAvailable = existsSync(fixtureDir) && existsSync(goldenDir)
 
 function loadFixture(name: string): Catalog {
   const json = readFileSync(resolve(fixtureDir, `${name}.json`), 'utf-8')
@@ -128,21 +129,21 @@ function goldenTest(fixtureName: string, namewidth: number, colwidth: number, br
   }
 }
 
-describe('golden file: 120526e (International Specialty Club)', () => {
+describe.skipIf(!fixturesAvailable)('golden file: 120526e (International Specialty Club)', () => {
   it('namewidth=36, colwidth=3', () => goldenTest('120526e', 36, 3))
   it('namewidth=36, colwidth=4', () => goldenTest('120526e', 36, 4))
   it('namewidth=38, colwidth=3', () => goldenTest('120526e', 38, 3))
   it('namewidth=38, colwidth=4', () => goldenTest('120526e', 38, 4))
 })
 
-describe('golden file: 120526g', () => {
+describe.skipIf(!fixturesAvailable)('golden file: 120526g', () => {
   it('namewidth=36, colwidth=3', () => goldenTest('120526g', 36, 3))
   it('namewidth=36, colwidth=4', () => goldenTest('120526g', 36, 4))
   it('namewidth=38, colwidth=4', () => goldenTest('120526g', 38, 4))
 })
 
 // 120602a golden files were generated with --bw=2 (non-default)
-describe('golden file: 120602a', () => {
+describe.skipIf(!fixturesAvailable)('golden file: 120602a', () => {
   it('namewidth=36, colwidth=3', () => goldenTest('120602a', 36, 3, 2))
   it('namewidth=36, colwidth=4', () => goldenTest('120602a', 36, 4, 2))
   it('namewidth=38, colwidth=3', () => goldenTest('120602a', 38, 3, 2))
