@@ -2,6 +2,7 @@ import {
   newCatalog, newRing, addRing, removeRing, addShow,
   finalsKeysFor, ensureFinalsSlot, setPlacement, initials,
   activeClassesForShow,
+  catalogOrder, allEntryNumbers, isInFinals, setEntryName, setEntryBreed, addEntry, removeEntry,
 } from '../catalog/index'
 import { generateReport } from '../scoring/report'
 
@@ -71,6 +72,147 @@ describe('catalog helpers', () => {
     expect(active).toContain('KIT')
     expect(active).toContain('CAT')
     expect(active).not.toContain('NTR')
+  })
+})
+
+describe('catalogOrder', () => {
+  it('sorts numerically', () => {
+    expect(['99', '100', '7'].sort(catalogOrder)).toEqual(['7', '99', '100'])
+  })
+
+  it('puts alpha suffix after bare number', () => {
+    expect(['401B', '401A', '401'].sort(catalogOrder)).toEqual(['401', '401A', '401B'])
+  })
+
+  it('handles mixed numeric and suffixed entries', () => {
+    expect(['402', '401A', '401', '400B'].sort(catalogOrder)).toEqual(['400B', '401', '401A', '402'])
+  })
+
+  it('is case-insensitive for suffix', () => {
+    expect(catalogOrder('401a', '401B')).toBeLessThan(0)
+  })
+})
+
+describe('allEntryNumbers', () => {
+  it('returns empty array for empty catalog', () => {
+    expect(allEntryNumbers(newCatalog())).toEqual([])
+  })
+
+  it('includes entries from catalog.entries', () => {
+    const c = newCatalog()
+    c.entries['401'] = { name: 'Fluffy', breed: 'MC' }
+    c.entries['402'] = { name: 'Spot', breed: 'AB' }
+    expect(allEntryNumbers(c)).toEqual(['401', '402'])
+  })
+
+  it('includes entries only in finals (no entry record)', () => {
+    const c = newCatalog()
+    addRing(c, 0)
+    const ring = c.shows[0].rings[0]
+    ensureFinalsSlot(ring, 'CAT')
+    ring.finals['CAT'].rank = [401, null, null, null, null, null, null, null, null, null]
+    expect(allEntryNumbers(c)).toContain('401')
+  })
+
+  it('deduplicates entries that appear in both entries and finals', () => {
+    const c = newCatalog()
+    c.entries['401'] = { name: 'Fluffy', breed: 'MC' }
+    addRing(c, 0)
+    const ring = c.shows[0].rings[0]
+    ensureFinalsSlot(ring, 'CAT')
+    ring.finals['CAT'].rank = [401, null, null, null, null, null, null, null, null, null]
+    const nums = allEntryNumbers(c)
+    expect(nums.filter(n => n === '401')).toHaveLength(1)
+  })
+
+  it('sorts in catalog order', () => {
+    const c = newCatalog()
+    c.entries['402'] = { name: 'B', breed: 'MC' }
+    c.entries['401A'] = { name: 'C', breed: 'MC' }
+    c.entries['401'] = { name: 'A', breed: 'MC' }
+    expect(allEntryNumbers(c)).toEqual(['401', '401A', '402'])
+  })
+
+  it('includes string-keyed entries like 401A from finals rank', () => {
+    const c = newCatalog()
+    addRing(c, 0)
+    const ring = c.shows[0].rings[0]
+    ensureFinalsSlot(ring, 'CAT')
+    ring.finals['CAT'].rank = ['401A', null, null, null, null, null, null, null, null, null]
+    expect(allEntryNumbers(c)).toContain('401A')
+  })
+})
+
+describe('isInFinals', () => {
+  it('returns false for catalog with no finals', () => {
+    const c = newCatalog()
+    c.entries['401'] = { name: 'Fluffy', breed: 'MC' }
+    expect(isInFinals(c, '401')).toBe(false)
+  })
+
+  it('returns true when entry appears as integer in rank', () => {
+    const c = newCatalog()
+    addRing(c, 0)
+    const ring = c.shows[0].rings[0]
+    ensureFinalsSlot(ring, 'CAT')
+    ring.finals['CAT'].rank[0] = 401
+    expect(isInFinals(c, '401')).toBe(true)
+  })
+
+  it('returns true when entry appears as string in rank', () => {
+    const c = newCatalog()
+    addRing(c, 0)
+    const ring = c.shows[0].rings[0]
+    ensureFinalsSlot(ring, 'CAT')
+    ring.finals['CAT'].rank[0] = '401A'
+    expect(isInFinals(c, '401A')).toBe(true)
+  })
+
+  it('returns false when entry not in any rank', () => {
+    const c = newCatalog()
+    addRing(c, 0)
+    const ring = c.shows[0].rings[0]
+    ensureFinalsSlot(ring, 'CAT')
+    ring.finals['CAT'].rank[0] = 402
+    expect(isInFinals(c, '401')).toBe(false)
+  })
+})
+
+describe('entry mutations', () => {
+  it('setEntryName creates entry if missing', () => {
+    const c = newCatalog()
+    setEntryName(c, '401', 'Fluffy')
+    expect(c.entries['401'].name).toBe('Fluffy')
+    expect(c.entries['401'].breed).toBe('')
+  })
+
+  it('setEntryBreed creates entry if missing', () => {
+    const c = newCatalog()
+    setEntryBreed(c, '401', 'MC')
+    expect(c.entries['401'].breed).toBe('MC')
+    expect(c.entries['401'].name).toBe('')
+  })
+
+  it('addEntry creates a new blank entry', () => {
+    const c = newCatalog()
+    addEntry(c, '401')
+    expect(c.entries['401']).toEqual({ name: '', breed: '' })
+  })
+
+  it('addEntry is no-op for duplicate or empty number', () => {
+    const c = newCatalog()
+    c.entries['401'] = { name: 'Fluffy', breed: 'MC' }
+    addEntry(c, '401')
+    expect(c.entries['401'].name).toBe('Fluffy')
+    addEntry(c, '')
+    expect(Object.keys(c.entries)).toHaveLength(1)
+  })
+
+  it('removeEntry deletes the entry', () => {
+    const c = newCatalog()
+    c.entries['401'] = { name: 'Fluffy', breed: 'MC' }
+    removeEntry(c, '401')
+    expect(c.entries['401']).toBeUndefined()
   })
 })
 

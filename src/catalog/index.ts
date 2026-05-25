@@ -1,4 +1,4 @@
-import type { Catalog, Ring, Show } from '../scoring/types'
+import type { Catalog, CatEntry, Ring, Show } from '../scoring/types'
 
 // ── Constants ─────────────────────────────────────────────────────────────────
 
@@ -179,4 +179,77 @@ function triggerDownload(content: string, filename: string, type: string) {
   a.download = filename
   a.click()
   URL.revokeObjectURL(url)
+}
+
+// ── Entries helpers ───────────────────────────────────────────────────────────
+
+/**
+ * Catalog-order sort comparator for entry numbers.
+ * Matches Perl catalog_order: numeric part ascending, then alpha suffix ascending.
+ * Reference: Entries.pm catalog_order
+ */
+export function catalogOrder(a: string, b: string): number {
+  const ma = a.toUpperCase().match(/^(\d+)([A-Z]*)/)
+  const mb = b.toUpperCase().match(/^(\d+)([A-Z]*)/)
+  const na = ma ? parseInt(ma[1], 10) : 0
+  const nb = mb ? parseInt(mb[1], 10) : 0
+  const sa = ma ? ma[2] : a.toUpperCase()
+  const sb = mb ? mb[2] : b.toUpperCase()
+  return na !== nb ? na - nb : sa.localeCompare(sb)
+}
+
+/**
+ * All unique entry numbers from catalog.entries + all finals rank arrays,
+ * sorted in catalog order. Rank values are coerced to string.
+ */
+export function allEntryNumbers(catalog: Catalog): string[] {
+  const nums = new Set<string>(Object.keys(catalog.entries))
+  for (const show of catalog.shows) {
+    for (const ring of show.rings) {
+      for (const finals of Object.values(ring.finals)) {
+        for (const rank of finals.rank) {
+          if (rank != null) nums.add(String(rank))
+        }
+      }
+    }
+  }
+  return [...nums].sort(catalogOrder)
+}
+
+/** Returns true if the entry number appears in any ring's finals rank array. */
+export function isInFinals(catalog: Catalog, num: string): boolean {
+  for (const show of catalog.shows) {
+    for (const ring of show.rings) {
+      for (const finals of Object.values(ring.finals)) {
+        if (finals.rank.some(r => r != null && String(r) === num)) return true
+      }
+    }
+  }
+  return false
+}
+
+/** Ensure an entry slot exists; creates empty entry if missing. */
+function ensureEntry(catalog: Catalog, num: string): CatEntry {
+  if (!catalog.entries[num]) catalog.entries[num] = { name: '', breed: '' }
+  return catalog.entries[num]
+}
+
+export function setEntryName(catalog: Catalog, num: string, name: string) {
+  ensureEntry(catalog, num).name = name
+}
+
+export function setEntryBreed(catalog: Catalog, num: string, breed: string) {
+  ensureEntry(catalog, num).breed = breed
+}
+
+/** Add a new entry by number. No-op if number is empty or already exists. */
+export function addEntry(catalog: Catalog, num: string) {
+  const n = num.trim()
+  if (!n || catalog.entries[n]) return
+  catalog.entries[n] = { name: '', breed: '' }
+}
+
+/** Remove an entry by number. Entry may still appear in finals after deletion. */
+export function removeEntry(catalog: Catalog, num: string) {
+  delete catalog.entries[num]
 }
