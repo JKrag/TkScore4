@@ -22,11 +22,17 @@ TICA. The new app must produce byte-identical reports to the original.
   - 28 pytest tests covering all edge cases + all 9 real 2013 golden files
 - [x] `TkScore4/CLAUDE.md` — data model reference, test workflow, architecture notes
 
-### Not started
+### Done (continued)
 
-- [ ] Golden file integration test harness
-- [ ] Report generator (`src/scoring/`)
-- [ ] Scoring/calculation engine
+- [x] Golden file integration test harness (`src/__tests__/report.golden.test.ts`)
+  - 12 tests: 120526e (4), 120526g (3), 120602a (4), all 12 passing
+  - Test helper normalizes tie-group ordering before comparison (Perl hash order is non-reproducible)
+- [x] Report generator (`src/scoring/report.ts`, `src/scoring/types.ts`)
+  - Bugs fixed: trailing newline, `printscore` Perl falsiness (`'0'`), roster indent (uses `catalog.options.namewidth`), entry sort order (insertion-order tiebreaker), roster caption rows (ring names with " - " get extra caption line), dynamic `breedwidth` defaulting to Perl's 3 (overridable via `ReportOptions.breedwidth`), `BreedWidth` treated as session option not stored in `.tks`
+
+### Not started
+- [ ] Expand golden file tests to remaining 6 `.tks` show files (120609a/d, 120623a/b/d/e — need golden `.txt` pairs generated first)
+- [ ] `mixedcase` option — title-case transformation for club name, date, cat names when `options.mixedcase=1` (currently passes because 2013 corpus data is already in mixed case)
 - [ ] Vue UI (data entry, show management)
 - [ ] In-app .tks import (optional — converter tool is sufficient for testing)
 

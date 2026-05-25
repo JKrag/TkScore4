@@ -131,9 +131,11 @@ integer vs string cat IDs), error handling, file I/O, and a smoke test of all 9 
 `.tks` files in the 2013 golden corpus.
 
 ### General
+
 - Write the test before (or immediately after) writing the code — not as an afterthought
 - Every new parsing rule, calculation, or report section gets a test
 - If you fix a bug, add a regression test for the specific case that was broken
+- Prefer bash one-liners (grep, awk, sed, cat, find) for simple file reading and pattern matching so I don't have to manually approve so many python scripts. Use Python scripts when logic is complex enough to justify it, or when reformating the output makes it easier for you to read the results.
 
 ## Architecture notes
 
