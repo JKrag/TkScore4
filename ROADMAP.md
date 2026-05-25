@@ -15,26 +15,41 @@ TICA. The new app must produce byte-identical reports to the original.
 ### Done
 
 - [x] Root `CLAUDE.md` — project context, read-only reference structure, non-negotiables
-- [x] `TkScore4/` initialized: Vite + Vue 3 + TypeScript + Vitest (28 TS tests pass)
+- [x] `TkScore4/` initialized: Vite + Vue 3 + TypeScript + Vitest
 - [x] `tools/tks_to_json.py` — converts legacy `.tks` (Perl Data::Dumper) to JSON
   - Handles: `undef`→null, bare integer keys, integer vs string cat IDs (`401` ≠ `"401A"`),
     escaped quotes, CP1252/Latin-1 encoding fallback
   - 28 pytest tests covering all edge cases + all 9 real 2013 golden files
 - [x] `TkScore4/CLAUDE.md` — data model reference, test workflow, architecture notes
-
-### Done (continued)
-
 - [x] Golden file integration test harness (`src/__tests__/report.golden.test.ts`)
   - 12 tests: 120526e (4), 120526g (3), 120602a (4), all 12 passing
   - Test helper normalizes tie-group ordering before comparison (Perl hash order is non-reproducible)
 - [x] Report generator (`src/scoring/report.ts`, `src/scoring/types.ts`)
-  - Bugs fixed: trailing newline, `printscore` Perl falsiness (`'0'`), roster indent (uses `catalog.options.namewidth`), entry sort order (insertion-order tiebreaker), roster caption rows (ring names with " - " get extra caption line), dynamic `breedwidth` defaulting to Perl's 3 (overridable via `ReportOptions.breedwidth`), `BreedWidth` treated as session option not stored in `.tks`
+  - Bugs fixed: trailing newline, `printscore` Perl falsiness (`'0'`), roster indent, entry sort order, roster caption rows, dynamic `breedwidth` defaulting
+- [x] Domain docs: `TkScore4/CONTEXT.md` (glossary) + `TkScore4/docs/adr/` (3 ADRs)
+  - ADR 0001: Tab layout over routing
+  - ADR 0002: No in-app .tks import (Python converter handles it)
+  - ADR 0003: Finals tab two-level selector + placement grid
+- [x] Catalog helpers (`src/catalog/index.ts`) — factory, mutation, persistence, file I/O
+  - `newCatalog()`, `newShow()`, `newRing()`, `addRing()`, `removeRing()`, `addShow()`, `removeShow()`
+  - `finalsKeysFor()` — encodes AB vs SP LH/SH key derivation in one place
+  - `setPlacement()`, `setCount()`, `ensureFinalsSlot()`
+  - `saveToStorage()` / `loadFromStorage()` (localStorage auto-save)
+  - `downloadCatalog()` / `downloadReport()` (browser download)
+  - 8 unit tests in `src/__tests__/catalog.test.ts` (21 total tests passing)
+- [x] Vue UI — full app shell + 5 tabs
+  - `App.vue`: tab shell, localStorage auto-save (watches catalog deeply), New/Open/Save/Save As, Ctrl-S / Ctrl-Shift-S keyboard shortcuts, empty state with call to action
+  - `TabShowInfo.vue`: club, location, date, reporter, email; show day labels (up to 4); report options (namewidth, colwidth, printscore, mixedcase)
+  - `TabRings.vue`: per-show ring table; judge name (auto-derives initials); AB/SP toggle; class checkboxes; congress flag; add/remove rings
+  - `TabFinals.vue`: show selector + class pills + placement grid; AB rings one column, SP rings LH+SH sub-columns; count row + 10 placement slots
+  - `TabReport.vue`: generate button → renders report in `<pre>`; download .txt; namewidth/colwidth/printscore controls
+  - `TabEntries.vue`: placeholder (not needed for first use case)
 
-### Not started
-- [ ] Expand golden file tests to remaining 6 `.tks` show files (120609a/d, 120623a/b/d/e — need golden `.txt` pairs generated first)
-- [ ] `mixedcase` option — title-case transformation for club name, date, cat names when `options.mixedcase=1` (currently passes because 2013 corpus data is already in mixed case)
-- [ ] Vue UI (data entry, show management)
-- [ ] In-app .tks import (optional — converter tool is sufficient for testing)
+### Not started / deferred
+- [ ] Expand golden file tests to remaining 6 `.tks` show files (120609a/d, 120623a/b/d/e)
+- [ ] `mixedcase` option — title-case transformation (currently passes because 2013 data is already mixed case)
+- [ ] Entries tab — full cat name + breed editor (not needed for "best of best" use case)
+- [ ] In-app .tks import (deferred — Python converter is sufficient; Flask wrapper if needed)
 
 ---
 
