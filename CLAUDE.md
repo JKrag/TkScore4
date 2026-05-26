@@ -3,6 +3,15 @@
 This is the active development project. For project context, constraints, and read-only
 reference material, see the root `../CLAUDE.md` first.
 
+## Deployment
+
+- **Live URL**: https://tk-score4.vercel.app
+- **Vercel project**: `jkrags-projects/tk-score4`
+- **Deploy command**: `vercel --prod` (manual) — GitHub auto-deploy not yet connected (see below)
+- **GitHub auto-deploy**: Connection failed during setup. Fix via Vercel dashboard →
+  Project Settings → Git → connect `JKrag/TkScore4`. May require granting Vercel access
+  to the repo under GitHub → Settings → Applications → Vercel.
+
 ## Quick reference
 
 | Command | What it does |
@@ -12,6 +21,7 @@ reference material, see the root `../CLAUDE.md` first.
 | `npm run test:watch` | Watch mode for TDD |
 | `npm run test:coverage` | Coverage report |
 | `npm run build` | Production build (type-check + vite build) |
+| `vercel --prod` | Deploy to production |
 
 ## Project structure
 

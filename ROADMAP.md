@@ -44,24 +44,28 @@ TICA. The new app must produce byte-identical reports to the original.
   - `TabFinals.vue`: show selector + class pills + placement grid; AB rings one column, SP rings LH+SH sub-columns; count row + 10 placement slots
   - `TabReport.vue`: generate button → renders report in `<pre>`; download .txt; namewidth/colwidth/printscore controls
   - `TabEntries.vue`: placeholder (not needed for first use case)
+- [x] Entries tab — full cat name + breed editor (not needed for "best of best" use case)
 
 ### Not started / deferred
+
 - [ ] Expand golden file tests to remaining 6 `.tks` show files (120609a/d, 120623a/b/d/e)
 - [ ] `mixedcase` option — title-case transformation (currently passes because 2013 data is already mixed case)
-- [ ] Entries tab — full cat name + breed editor (not needed for "best of best" use case)
 - [ ] In-app .tks import (deferred — Python converter is sufficient; Flask wrapper if needed)
 
 ---
 
 ## Reference material (read-only, do not modify)
 
-| Path | What it is |
-|------|-----------|
+These are local paths outside the repo. They are read-only reference material for the initial port and for verifying report output. This section left here as a reference for further development. 
+
+| Path                          | What it is                                                            |
+| ----------------------------- | --------------------------------------------------------------------- |
 | `../TkScore_Win/lib/TkScore/` | Authoritative Perl source. Read this before implementing any feature. |
-| `../TkScore_Win/2013/*.tks` | 9 real show records (2012–2013) |
-| `../TkScore_Win/2013/*.txt` | Expected report output for each show |
+| `../TkScore_Win/2013/*.tks`   | 9 real show records (2012–2013)                                       |
+| `../TkScore_Win/2013/*.txt`   | Expected report output for each show                                  |
 
 **Key Perl modules by feature:**
+
 - Score calculation: `Finals.pm`, `Entries.pm`
 - Report layout: `ShowReport.pm`, `FinalsReport.pm`, `EntriesReport.pm`
 - File I/O: `Catalog.pm` (reads/writes .tks via Data::Dumper)
@@ -79,10 +83,12 @@ Each `.tks` has up to 4 corresponding `.txt` files (different format options).
 **Goal:** One failing Vitest test that defines the pipeline we need to build.
 
 1. Convert golden `.tks` files to JSON fixtures:
+   
    ```bash
    mkdir -p test-fixtures
    python3 tools/tks_to_json.py --batch ../TkScore_Win/2013/ test-fixtures/
    ```
+
 2. Write `src/__tests__/report.golden.test.ts`:
    - Load `test-fixtures/120526e.json`
    - Call `generateReport(data, { namewidth: 36, colwidth: 3 })`
@@ -98,6 +104,7 @@ Reference: `../TkScore_Win/lib/TkScore/ShowReport.pm`, `FinalsReport.pm`,
 `EntriesReport.pm`.
 
 The `.txt` format is fixed-width text. Key sections (from the golden file):
+
 1. Header — club, location, date
 2. Show grid — judges × days, with AB/SP designation
 3. KITTENS section — one row per cat, columns per ring
@@ -117,6 +124,7 @@ its own unit tests in `src/__tests__/`.
 Reference: `../TkScore_Win/lib/TkScore/Finals.pm`, `Entries.pm`.
 
 Key rules to implement:
+
 - Allbreed vs Specialty ring scoring differences
 - LH/SH split for specialty rings
 - Point accumulation across rings
