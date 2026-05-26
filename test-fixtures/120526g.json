@@ -1,0 +1,1673 @@
+{
+  "filename": "120526g.tks",
+  "nshows": "0",
+  "reporter": "Gerry Smith",
+  "shows": [
+    {
+      "label": "Saturday/Sunday",
+      "nrings": 9,
+      "judges": {
+        "IVB": "Irene van Belzen",
+        "CW": "Connie Webb",
+        "PB": "Pamela Barrett",
+        "AR": "Anna Rudakova - Guest",
+        "JA": "Jane Allen",
+        "MDL": "Mary-lise de Landtsheer",
+        "KK": "Katharina Krenn - MC Congress",
+        "CL": "Carlos Lopez"
+      },
+      "rings": [
+        {
+          "name": "Pamela Barrett",
+          "congress": "0",
+          "finals": {
+            "SHCAT": {
+              "count": 56,
+              "rank": [
+                238,
+                258,
+                228,
+                251,
+                205,
+                224,
+                250,
+                223,
+                220,
+                261
+              ]
+            },
+            "SHKIT": {
+              "count": 53,
+              "rank": [
+                "089",
+                106,
+                "082",
+                116,
+                100,
+                "058",
+                "087",
+                "076",
+                112,
+                "054"
+              ]
+            },
+            "LHHHP": {
+              "count": 3,
+              "rank": [
+                401,
+                402,
+                "401A",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHALT": {
+              "count": 10,
+              "rank": [
+                "304A",
+                307,
+                302,
+                303,
+                304,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHHHK": {
+              "count": 2,
+              "rank": [
+                453,
+                452,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHHHP": {
+              "count": 8,
+              "rank": [
+                462,
+                451,
+                454,
+                456,
+                460,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHKIT": {
+              "count": 27,
+              "rank": [
+                "005",
+                "025",
+                "022",
+                "008",
+                "024",
+                "028",
+                "004",
+                "015",
+                "033",
+                "001"
+              ]
+            },
+            "LHCAT": {
+              "count": 48,
+              "rank": [
+                144,
+                154,
+                135,
+                166,
+                125,
+                158,
+                153,
+                122,
+                145,
+                164
+              ]
+            },
+            "SHALT": {
+              "count": 5,
+              "rank": [
+                356,
+                354,
+                351,
+                355,
+                353,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHHHK": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": "0",
+            "ALT": 1,
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": 1
+          },
+          "absp": "SP",
+          "judge": "PB"
+        },
+        {
+          "name": "Connie Webb",
+          "congress": "0",
+          "finals": {
+            "HHP": {
+              "count": 11,
+              "rank": [
+                401,
+                402,
+                456,
+                458,
+                460,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "CAT": {
+              "count": 104,
+              "rank": [
+                244,
+                144,
+                204,
+                164,
+                154,
+                153,
+                166,
+                250,
+                238,
+                228
+              ]
+            },
+            "KIT": {
+              "count": 78,
+              "rank": [
+                "015",
+                "005",
+                "059",
+                "088",
+                "025",
+                104,
+                "010",
+                "093",
+                "001",
+                "002"
+              ]
+            },
+            "ALT": {
+              "count": 14,
+              "rank": [
+                354,
+                356,
+                302,
+                351,
+                306,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "HHK": {
+              "count": 2,
+              "rank": [
+                452,
+                453,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": "0",
+            "ALT": 1,
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": 1
+          },
+          "absp": "AB",
+          "judge": "CW"
+        },
+        {
+          "name": "Carlos Lopez",
+          "congress": "0",
+          "finals": {
+            "SHCAT": {
+              "count": 58,
+              "rank": [
+                228,
+                261,
+                203,
+                258,
+                221,
+                204,
+                238,
+                242,
+                256,
+                244
+              ]
+            },
+            "SHKIT": {
+              "count": 55,
+              "rank": [
+                "059",
+                "091",
+                "089",
+                "057",
+                "056",
+                100,
+                "069",
+                112,
+                "095",
+                "082"
+              ]
+            },
+            "LHHHP": {
+              "count": 3,
+              "rank": [
+                402,
+                401,
+                "401A",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHALT": {
+              "count": 10,
+              "rank": [
+                303,
+                302,
+                306,
+                "308A",
+                "304A",
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHHHK": {
+              "count": 2,
+              "rank": [
+                453,
+                452,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHHHP": {
+              "count": 8,
+              "rank": [
+                458,
+                462,
+                456,
+                454,
+                457,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHKIT": {
+              "count": 26,
+              "rank": [
+                "025",
+                "005",
+                "004",
+                "015",
+                "032",
+                "010",
+                "029",
+                "033",
+                "028",
+                "024"
+              ]
+            },
+            "LHCAT": {
+              "count": 48,
+              "rank": [
+                166,
+                158,
+                153,
+                154,
+                167,
+                163,
+                135,
+                139,
+                175,
+                122
+              ]
+            },
+            "SHALT": {
+              "count": 5,
+              "rank": [
+                354,
+                356,
+                351,
+                353,
+                355,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHHHK": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": "0",
+            "ALT": 1,
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": 1
+          },
+          "absp": "SP",
+          "judge": "CL"
+        },
+        {
+          "name": "Mary-lise de Landtsheer",
+          "congress": "0",
+          "finals": {
+            "HHP": {
+              "count": 11,
+              "rank": [
+                454,
+                "401A",
+                462,
+                458,
+                456,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "CAT": {
+              "count": 101,
+              "rank": [
+                166,
+                203,
+                154,
+                120,
+                153,
+                125,
+                231,
+                171,
+                245,
+                242
+              ]
+            },
+            "KIT": {
+              "count": 83,
+              "rank": [
+                "091",
+                "015",
+                106,
+                "057",
+                "002",
+                "025",
+                104,
+                "089",
+                "069",
+                "081"
+              ]
+            },
+            "ALT": {
+              "count": 15,
+              "rank": [
+                303,
+                "304A",
+                351,
+                302,
+                354,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "HHK": {
+              "count": 2,
+              "rank": [
+                452,
+                453,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": "0",
+            "ALT": 1,
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": 1
+          },
+          "absp": "AB",
+          "judge": "MDL"
+        },
+        {
+          "name": "Katharina Krenn",
+          "congress": "0",
+          "finals": {
+            "SHCAT": {
+              "count": 48,
+              "rank": [
+                248,
+                204,
+                231,
+                203,
+                226,
+                228,
+                238,
+                261,
+                243,
+                260
+              ]
+            },
+            "SHKIT": {
+              "count": 59,
+              "rank": [
+                104,
+                "056",
+                "081",
+                "059",
+                109,
+                117,
+                "067",
+                100,
+                "094",
+                "088"
+              ]
+            },
+            "LHHHP": {
+              "count": 3,
+              "rank": [
+                401,
+                "401A",
+                402,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHALT": {
+              "count": 10,
+              "rank": [
+                302,
+                303,
+                304,
+                306,
+                305,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHHHK": {
+              "count": 2,
+              "rank": [
+                452,
+                453,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHHHP": {
+              "count": 8,
+              "rank": [
+                462,
+                458,
+                456,
+                454,
+                451,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHKIT": {
+              "count": 27,
+              "rank": [
+                "005",
+                "009",
+                "033",
+                "008",
+                "025",
+                "004",
+                "010",
+                "027",
+                "028",
+                "002"
+              ]
+            },
+            "LHCAT": {
+              "count": 46,
+              "rank": [
+                166,
+                144,
+                154,
+                122,
+                153,
+                164,
+                170,
+                161,
+                158,
+                171
+              ]
+            },
+            "SHALT": {
+              "count": 6,
+              "rank": [
+                354,
+                355,
+                356,
+                351,
+                353,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHHHK": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": "0",
+            "ALT": 1,
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": 1
+          },
+          "absp": "SP",
+          "judge": "KK"
+        },
+        {
+          "name": "Irene van Belzen",
+          "congress": "0",
+          "finals": {
+            "HHP": {
+              "count": 11,
+              "rank": [
+                402,
+                458,
+                451,
+                454,
+                401,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "CAT": {
+              "count": 94,
+              "rank": [
+                154,
+                203,
+                144,
+                261,
+                247,
+                248,
+                238,
+                228,
+                166,
+                231
+              ]
+            },
+            "KIT": {
+              "count": 84,
+              "rank": [
+                104,
+                "005",
+                "057",
+                106,
+                "024",
+                "091",
+                "075",
+                "032",
+                "082",
+                "031"
+              ]
+            },
+            "ALT": {
+              "count": 15,
+              "rank": [
+                304,
+                354,
+                351,
+                303,
+                307,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "HHK": {
+              "count": 2,
+              "rank": [
+                452,
+                453,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": "0",
+            "ALT": 1,
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": 1
+          },
+          "absp": "AB",
+          "judge": "IVB"
+        },
+        {
+          "name": "Jane Allen",
+          "congress": "0",
+          "finals": {
+            "SHCAT": {
+              "count": 47,
+              "rank": [
+                203,
+                245,
+                248,
+                221,
+                231,
+                251,
+                255,
+                226,
+                244,
+                205
+              ]
+            },
+            "SHKIT": {
+              "count": 56,
+              "rank": [
+                104,
+                110,
+                "053",
+                "089",
+                "070",
+                "093",
+                "082",
+                100,
+                106,
+                116
+              ]
+            },
+            "LHHHP": {
+              "count": 3,
+              "rank": [
+                "401A",
+                401,
+                402,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHALT": {
+              "count": 10,
+              "rank": [
+                303,
+                301,
+                306,
+                305,
+                "304A",
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHHHK": {
+              "count": 2,
+              "rank": [
+                452,
+                453,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHHHP": {
+              "count": 8,
+              "rank": [
+                454,
+                456,
+                462,
+                458,
+                459,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHKIT": {
+              "count": 27,
+              "rank": [
+                "005",
+                "024",
+                "028",
+                "003",
+                "015",
+                "025",
+                "007",
+                "031",
+                "033",
+                "027"
+              ]
+            },
+            "LHCAT": {
+              "count": 45,
+              "rank": [
+                154,
+                164,
+                166,
+                130,
+                120,
+                "017",
+                171,
+                144,
+                153,
+                118
+              ]
+            },
+            "SHALT": {
+              "count": 5,
+              "rank": [
+                351,
+                354,
+                352,
+                355,
+                356,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHHHK": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": "0",
+            "ALT": 1,
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": 1
+          },
+          "absp": "SP",
+          "judge": "JA"
+        },
+        {
+          "name": "Anna Rudakova - Guest",
+          "congress": "0",
+          "finals": {
+            "HHP": {
+              "count": 11,
+              "rank": [
+                459,
+                462,
+                460,
+                454,
+                401,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "CAT": {
+              "count": 94,
+              "rank": [
+                153,
+                261,
+                154,
+                226,
+                204,
+                221,
+                231,
+                248,
+                245,
+                144
+              ]
+            },
+            "KIT": {
+              "count": 82,
+              "rank": [
+                "059",
+                "004",
+                104,
+                "033",
+                "070",
+                106,
+                "027",
+                "094",
+                "005",
+                "001"
+              ]
+            },
+            "ALT": {
+              "count": 16,
+              "rank": [
+                356,
+                303,
+                304,
+                352,
+                301,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "HHK": {
+              "count": 2,
+              "rank": [
+                452,
+                453,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": "0",
+            "ALT": 1,
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": 1
+          },
+          "absp": "AB",
+          "judge": "AR"
+        },
+        {
+          "name": "Katharina Krenn - MC Congress",
+          "congress": 1,
+          "finals": {
+            "SHCAT": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHKIT": {
+              "rank": []
+            },
+            "LHHHP": {
+              "rank": []
+            },
+            "LHALT": {
+              "rank": []
+            },
+            "SHHHK": {
+              "rank": []
+            },
+            "SHHHP": {
+              "rank": []
+            },
+            "LHKIT": {
+              "rank": []
+            },
+            "LHCAT": {
+              "count": 22,
+              "rank": [
+                144,
+                134,
+                149,
+                131,
+                138,
+                "017",
+                145,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHALT": {
+              "rank": []
+            },
+            "LHHHK": {
+              "rank": []
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": "0",
+            "NBA": "0",
+            "ALT": "0",
+            "NTR": "0",
+            "KIT": "0",
+            "CAT": 1,
+            "HHK": "0"
+          },
+          "absp": "SP",
+          "judge": "KK"
+        }
+      ]
+    },
+    {
+      "label": "",
+      "nrings": "0",
+      "rings": []
+    },
+    {
+      "label": "",
+      "nrings": "0",
+      "rings": []
+    },
+    {
+      "label": "",
+      "nrings": "0",
+      "rings": []
+    },
+    {
+      "label": "",
+      "nrings": "0",
+      "rings": []
+    },
+    {
+      "label": "",
+      "nrings": "0",
+      "rings": []
+    }
+  ],
+  "club": "Crystal Cat Club",
+  "email": "gerry806@gmail.com",
+  "location": "Moscow, Russia",
+  "format": "2-day split format",
+  "entries": {
+    "001": {
+      "name": "Charmingcurl Queen Victoria",
+      "breed": "AL"
+    },
+    "002": {
+      "name": "jenny Redblack Akkari Ainu",
+      "breed": "KL"
+    },
+    "120": {
+      "name": "Enrike Dikiy Shelk",
+      "breed": "KL"
+    },
+    "003": {
+      "name": "Conrad Macleod of Barrayar",
+      "breed": "KL"
+    },
+    "004": {
+      "name": "Glafira Free Hunter*Ru",
+      "breed": "KL"
+    },
+    "401": {
+      "name": "Marsel Exupery",
+      "breed": "HH"
+    },
+    "203": {
+      "name": "Highgaitpaws Magic Gold of Abylife",
+      "breed": "AB"
+    },
+    "122": {
+      "name": "Bosporus Free Hunter",
+      "breed": "KL"
+    },
+    "005": {
+      "name": "Salexcoon Denver",
+      "breed": "MC"
+    },
+    "402": {
+      "name": "Elka",
+      "breed": "HH"
+    },
+    "204": {
+      "name": "Descavalier Eternity",
+      "breed": "AB"
+    },
+    "205": {
+      "name": "Abymystica Lucrezia Borgia",
+      "breed": "AB"
+    },
+    "007": {
+      "name": "Indigo Soul Evangelista",
+      "breed": "MC"
+    },
+    "242": {
+      "name": "Arietta Ra Sunrise of Egyptsila",
+      "breed": "EM"
+    },
+    "161": {
+      "name": "Rumfold Red Bull",
+      "breed": "SS"
+    },
+    "125": {
+      "name": "Captain Cook from Kuningriik",
+      "breed": "MC"
+    },
+    "008": {
+      "name": "(US) Broadsway Booth Bay",
+      "breed": "MC"
+    },
+    "243": {
+      "name": "Plush Egoist Ignor",
+      "breed": "ES"
+    },
+    "081": {
+      "name": "Korstar Ebony Beemer of Sweetlife",
+      "breed": "BO"
+    },
+    "009": {
+      "name": "Mainlynx Borneo",
+      "breed": "MC"
+    },
+    "244": {
+      "name": "Chocolatinos Fedor Emelianenko",
+      "breed": "ES"
+    },
+    "163": {
+      "name": "Kindlycat's Jozephyna of Yz",
+      "breed": "SS"
+    },
+    "082": {
+      "name": "Catsville Alien",
+      "breed": "BS"
+    },
+    "245": {
+      "name": "Sybarit Zeus",
+      "breed": "ES"
+    },
+    "164": {
+      "name": "Rumfold May Flower",
+      "breed": "SS"
+    },
+    "247": {
+      "name": "Irokez",
+      "breed": "KB"
+    },
+    "166": {
+      "name": "Mittelmeijer Roskoshniy Kot Mur",
+      "breed": "SB"
+    },
+    "248": {
+      "name": "Anika Magic Grace",
+      "breed": "KB"
+    },
+    "167": {
+      "name": "Aglaya Forest Fantasy",
+      "breed": "SB"
+    },
+    "087": {
+      "name": "Elvis Presley Bastet-A-Tet",
+      "breed": "BS"
+    },
+    "088": {
+      "name": "Infinity Charm Nesquik of Sweetlife",
+      "breed": "BU"
+    },
+    "089": {
+      "name": "Lasburmas Barcelona",
+      "breed": "BU"
+    },
+    "010": {
+      "name": "Zlatacoon Iriska Blackwoods",
+      "breed": "MC"
+    },
+    "130": {
+      "name": "Unicum Titan",
+      "breed": "MC"
+    },
+    "131": {
+      "name": "Shercoon Cassidy",
+      "breed": "MC"
+    },
+    "015": {
+      "name": "Dreamcoon Fidelio",
+      "breed": "MC"
+    },
+    "250": {
+      "name": "Hidcote Oudinot",
+      "breed": "OS"
+    },
+    "251": {
+      "name": "Sunna Nordica Nesta",
+      "breed": "RB"
+    },
+    "170": {
+      "name": "Ra-Solaris Fleuramour",
+      "breed": "SB"
+    },
+    "134": {
+      "name": "Gangstercat H'Chicago",
+      "breed": "MC"
+    },
+    "017": {
+      "name": "Ayron Zlatacoon",
+      "breed": "MC"
+    },
+    "053": {
+      "name": "Diva Dava Sokrovishe Korolei",
+      "breed": "AB"
+    },
+    "171": {
+      "name": "Skeemen Dumbo",
+      "breed": "SO"
+    },
+    "135": {
+      "name": "Ru*Best Coon Hunter",
+      "breed": "MC"
+    },
+    "054": {
+      "name": "Abymystica Nefertari Merytmut",
+      "breed": "AB"
+    },
+    "451": {
+      "name": "Simona",
+      "breed": "HH"
+    },
+    "091": {
+      "name": "Evaristo Magic Star",
+      "breed": "CR"
+    },
+    "452": {
+      "name": "Red Hot Chilli Pepper",
+      "breed": "HH"
+    },
+    "056": {
+      "name": "Abylife Mr. Mistoffelees",
+      "breed": "AB"
+    },
+    "453": {
+      "name": "Radisson",
+      "breed": "HH"
+    },
+    "255": {
+      "name": "Persival Jack Pot",
+      "breed": "SF"
+    },
+    "138": {
+      "name": "Blackwood's Kleo Queen",
+      "breed": "MC"
+    },
+    "093": {
+      "name": "De Longi Cat's Fifth Element",
+      "breed": "CR"
+    },
+    "057": {
+      "name": "Regtime O'Leff Silk Rout",
+      "breed": "AB"
+    },
+    "454": {
+      "name": "Kiske",
+      "breed": "HH"
+    },
+    "256": {
+      "name": "Rumfold Indiana",
+      "breed": "SF"
+    },
+    "175": {
+      "name": "Magic Crystal's White Panther",
+      "breed": "TA"
+    },
+    "139": {
+      "name": "Uran Stars Quality",
+      "breed": "MC"
+    },
+    "094": {
+      "name": "Moonspell Silvia Saint",
+      "breed": "CR"
+    },
+    "058": {
+      "name": "Abysphere Shaman's Crossing",
+      "breed": "AB"
+    },
+    "095": {
+      "name": "Kamelia Piakriks",
+      "breed": "DR"
+    },
+    "059": {
+      "name": "Fenix Edera Vite",
+      "breed": "AB"
+    },
+    "456": {
+      "name": "Bismark",
+      "breed": "HH"
+    },
+    "258": {
+      "name": "Vandvis Autumn Kiss",
+      "breed": "SX"
+    },
+    "457": {
+      "name": "Vadik",
+      "breed": "HH"
+    },
+    "458": {
+      "name": "Ivi",
+      "breed": "HH"
+    },
+    "459": {
+      "name": "Yasha",
+      "breed": "HH"
+    },
+    "100": {
+      "name": "Leksana Emma Grand Bateau Rouge",
+      "breed": "ES"
+    },
+    "301": {
+      "name": "Primecurl Lady Bird",
+      "breed": "AL"
+    },
+    "022": {
+      "name": "Forestpride Yann",
+      "breed": "MC"
+    },
+    "220": {
+      "name": "Amazongold Cardinal",
+      "breed": "BG"
+    },
+    "302": {
+      "name": "Jovilga*LT Equiano",
+      "breed": "AL"
+    },
+    "104": {
+      "name": "Oba-Na Surprise Kristin's*Rus",
+      "breed": "OS"
+    },
+    "221": {
+      "name": "Oleander Shalyapin of Malakhovka",
+      "breed": "BG"
+    },
+    "303": {
+      "name": "Vivian Akkari Ainu",
+      "breed": "KL"
+    },
+    "024": {
+      "name": "Toy Tricksy Malvina of Glamoor",
+      "breed": "PS"
+    },
+    "304": {
+      "name": "Pillowtalk's Net King Cole",
+      "breed": "MC"
+    },
+    "025": {
+      "name": "Dar-Liz Doll",
+      "breed": "PS"
+    },
+    "106": {
+      "name": "Sunna Nordica Pepper",
+      "breed": "RB"
+    },
+    "223": {
+      "name": "Pearls Twinkle Sunny Rose",
+      "breed": "BG"
+    },
+    "305": {
+      "name": "Ceazar Nifertity",
+      "breed": "MC"
+    },
+    "260": {
+      "name": "Caesar White Elephant",
+      "breed": "TH"
+    },
+    "224": {
+      "name": "Quick Hunters Lorena of Fleuramour",
+      "breed": "BG"
+    },
+    "306": {
+      "name": "Scottishtown Cold Breeze",
+      "breed": "SS"
+    },
+    "261": {
+      "name": "Greencity Kurazh",
+      "breed": "TG"
+    },
+    "027": {
+      "name": "RU*Eria Pro Fantasy Dream",
+      "breed": "RD"
+    },
+    "144": {
+      "name": "Ru*Forest Pride Ursulina",
+      "breed": "MC"
+    },
+    "460": {
+      "name": "Kris",
+      "breed": "HH"
+    },
+    "307": {
+      "name": "Rumfold Alisher Tomhore",
+      "breed": "SS"
+    },
+    "028": {
+      "name": "Rumfold Bianca Klaris",
+      "breed": "SS"
+    },
+    "109": {
+      "name": "Azalea Magic Flowers Palace",
+      "breed": "SF"
+    },
+    "145": {
+      "name": "Arlecoon's Boss",
+      "breed": "MC"
+    },
+    "226": {
+      "name": "Sweetlife&Jera Karolina Blackberry",
+      "breed": "BO"
+    },
+    "029": {
+      "name": "Muramur Beniamino",
+      "breed": "SS"
+    },
+    "462": {
+      "name": "Hansen",
+      "breed": "HH"
+    },
+    "228": {
+      "name": "Lexus of President West",
+      "breed": "BS"
+    },
+    "067": {
+      "name": "American Boy of Donleon",
+      "breed": "AS"
+    },
+    "149": {
+      "name": "Y.Ice And Indigo Volga-Don-Coon",
+      "breed": "MC"
+    },
+    "069": {
+      "name": "Rumfold Disperado",
+      "breed": "AS"
+    },
+    "110": {
+      "name": "Victor Tapirosh",
+      "breed": "SF"
+    },
+    "031": {
+      "name": "Rumfold Silver Dew",
+      "breed": "SS"
+    },
+    "112": {
+      "name": "Filand's Tiffany",
+      "breed": "SF"
+    },
+    "032": {
+      "name": "Russianirbis Romantika",
+      "breed": "SB"
+    },
+    "401A": {
+      "name": "Nobel Benjamin",
+      "breed": "HH"
+    },
+    "231": {
+      "name": "Prosper Silver Mormot",
+      "breed": "BS"
+    },
+    "033": {
+      "name": "Akkedi Sherhan",
+      "breed": "TA"
+    },
+    "070": {
+      "name": "Russicats Lesly",
+      "breed": "BG"
+    },
+    "304A": {
+      "name": "Chance MK",
+      "breed": "MC"
+    },
+    "116": {
+      "name": "Vandvis Harley Quinn",
+      "breed": "SX"
+    },
+    "351": {
+      "name": "Amberberry Caesar Gaius Iulius",
+      "breed": "AB"
+    },
+    "117": {
+      "name": "Bastet-Max Ulianna",
+      "breed": "SX"
+    },
+    "153": {
+      "name": "Nacar Artemisa",
+      "breed": "NF"
+    },
+    "352": {
+      "name": "Stedam Silver Streak of RumfoldRu",
+      "breed": "AS"
+    },
+    "118": {
+      "name": "Thomas Curley Venta of Curland",
+      "breed": "AL"
+    },
+    "154": {
+      "name": "Brettonpark On Target",
+      "breed": "PS"
+    },
+    "353": {
+      "name": "MC*Silver Daniel Alexander de Sad",
+      "breed": "BS"
+    },
+    "354": {
+      "name": "Burbon Cinderella",
+      "breed": "BU"
+    },
+    "308A": {
+      "name": "Russianirbis Neman",
+      "breed": "SB"
+    },
+    "075": {
+      "name": "Bengora Drago",
+      "breed": "BG"
+    },
+    "355": {
+      "name": "Rumfold Arcana Mace",
+      "breed": "SF"
+    },
+    "238": {
+      "name": "Mykro's Alexandro",
+      "breed": "CR"
+    },
+    "076": {
+      "name": "Big Marshal Jeneil",
+      "breed": "BG"
+    },
+    "356": {
+      "name": "Vandvis Ace O Diamonds",
+      "breed": "SX"
+    },
+    "158": {
+      "name": "Kizzycat Sentimental Journey",
+      "breed": "RD"
+    }
+  },
+  "options": {
+    "printscore": "0",
+    "namewidth": 36,
+    "mixedcase": 1,
+    "colwidth": 3
+  },
+  "date": "May 26-27, 2012"
+}

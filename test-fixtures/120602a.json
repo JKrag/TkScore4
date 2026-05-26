@@ -1,0 +1,1276 @@
+{
+  "filename": "120602a.tks",
+  "nshows": "0",
+  "reporter": "Gerry Smith",
+  "shows": [
+    {
+      "label": "Saturday",
+      "nrings": 5,
+      "judges": {
+        "PH": "Phillipa Holmes",
+        "IVB": "Irene van Belzen",
+        "KV": "Kurt Vlach",
+        "HDV": "Harley DeVilbiss",
+        "TV": "Tomoko Vlach"
+      },
+      "rings": [
+        {
+          "name": "Kurt Vlach",
+          "congress": "0",
+          "finals": {
+            "HHP": {
+              "count": 1,
+              "rank": [
+                451,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "CAT": {
+              "count": 31,
+              "rank": [
+                109,
+                117,
+                220,
+                118,
+                212,
+                105,
+                203,
+                "107A",
+                103,
+                214
+              ]
+            },
+            "KIT": {
+              "count": 15,
+              "rank": [
+                "052",
+                "002",
+                "055",
+                "059",
+                "001",
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "ALT": {
+              "count": 14,
+              "rank": [
+                352,
+                309,
+                311,
+                219,
+                305,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "HHK": {
+              "count": 1,
+              "rank": [
+                "450A",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NTR": {
+              "count": null,
+              "rank": [
+                null
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": "0",
+            "ALT": 1,
+            "NTR": 1,
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": 1
+          },
+          "absp": "AB",
+          "judge": "KV"
+        },
+        {
+          "name": "Tomoko Vlach",
+          "congress": "0",
+          "finals": {
+            "HHP": {
+              "count": 1,
+              "rank": [
+                451,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "CAT": {
+              "count": 31,
+              "rank": [
+                105,
+                109,
+                103,
+                117,
+                "107A",
+                210,
+                203,
+                114,
+                221,
+                213
+              ]
+            },
+            "KIT": {
+              "count": 15,
+              "rank": [
+                "055",
+                "009",
+                "003",
+                "052",
+                "056",
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "ALT": {
+              "count": 14,
+              "rank": [
+                352,
+                302,
+                305,
+                312,
+                308,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "HHK": {
+              "count": 1,
+              "rank": [
+                "450A",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NTR": {
+              "count": null,
+              "rank": [
+                null
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": "0",
+            "ALT": 1,
+            "NTR": 1,
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": 1
+          },
+          "absp": "AB",
+          "judge": "TV"
+        },
+        {
+          "name": "Irene van Belzen",
+          "congress": "0",
+          "finals": {
+            "HHP": {
+              "count": 1,
+              "rank": [
+                451,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "CAT": {
+              "count": 31,
+              "rank": [
+                117,
+                109,
+                203,
+                214,
+                105,
+                210,
+                115,
+                103,
+                116,
+                114
+              ]
+            },
+            "KIT": {
+              "count": 15,
+              "rank": [
+                "052",
+                "055",
+                "002",
+                "056",
+                "010",
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "ALT": {
+              "count": 14,
+              "rank": [
+                353,
+                312,
+                352,
+                302,
+                305,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "HHK": {
+              "count": 1,
+              "rank": [
+                "450A",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NTR": {
+              "count": null,
+              "rank": [
+                null
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": "0",
+            "ALT": 1,
+            "NTR": 1,
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": 1
+          },
+          "absp": "AB",
+          "judge": "IVB"
+        },
+        {
+          "name": "Harley DeVilbiss",
+          "congress": "0",
+          "finals": {
+            "HHP": {
+              "count": 1,
+              "rank": [
+                451,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "CAT": {
+              "count": 31,
+              "rank": [
+                105,
+                109,
+                112,
+                "107A",
+                208,
+                110,
+                117,
+                221,
+                118,
+                213
+              ]
+            },
+            "KIT": {
+              "count": 15,
+              "rank": [
+                "056",
+                "009",
+                "003",
+                "052",
+                "002",
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "ALT": {
+              "count": 14,
+              "rank": [
+                311,
+                308,
+                352,
+                302,
+                305,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "HHK": {
+              "count": 1,
+              "rank": [
+                "450A",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NTR": {
+              "count": null,
+              "rank": [
+                null
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": "0",
+            "ALT": 1,
+            "NTR": 1,
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": 1
+          },
+          "absp": "AB",
+          "judge": "HDV"
+        },
+        {
+          "name": "Phillipa Holmes",
+          "congress": "0",
+          "finals": {
+            "HHP": {
+              "count": 1,
+              "rank": [
+                451,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "CAT": {
+              "count": 31,
+              "rank": [
+                117,
+                207,
+                109,
+                203,
+                105,
+                115,
+                213,
+                107,
+                112,
+                103
+              ]
+            },
+            "KIT": {
+              "count": 15,
+              "rank": [
+                "011",
+                "055",
+                "002",
+                "009",
+                "052",
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "ALT": {
+              "count": 14,
+              "rank": [
+                311,
+                308,
+                353,
+                302,
+                301,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "HHK": {
+              "count": 1,
+              "rank": [
+                "450A",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NTR": {
+              "count": null,
+              "rank": [
+                null
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": "0",
+            "ALT": 1,
+            "NTR": 1,
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": 1
+          },
+          "absp": "AB",
+          "judge": "PH"
+        }
+      ]
+    },
+    {
+      "label": "Sunday",
+      "nrings": 5,
+      "judges": {
+        "PH": "Phillipa Holmes",
+        "IVB": "Irene van Belzen",
+        "KV": "Kurt Vlach",
+        "HDV": "Harley DeVilbiss",
+        "TV": "Tomoko Vlach"
+      },
+      "rings": [
+        {
+          "name": "Kurt Vlach",
+          "congress": "0",
+          "finals": {
+            "HHP": {
+              "count": 1,
+              "rank": [
+                451,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "CAT": {
+              "count": 32,
+              "rank": [
+                109,
+                117,
+                218,
+                221,
+                220,
+                105,
+                103,
+                208,
+                "107A",
+                201
+              ]
+            },
+            "KIT": {
+              "count": 19,
+              "rank": [
+                "058",
+                "057",
+                "002",
+                "059",
+                "057B",
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "ALT": {
+              "count": 15,
+              "rank": [
+                309,
+                352,
+                302,
+                311,
+                219,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "HHK": {
+              "count": 1,
+              "rank": [
+                "450A",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NTR": {
+              "count": 1,
+              "rank": [
+                "006"
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": "0",
+            "ALT": 1,
+            "NTR": 1,
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": 1
+          },
+          "absp": "AB",
+          "judge": "KV"
+        },
+        {
+          "name": "Tomoko Vlach",
+          "congress": "0",
+          "finals": {
+            "HHP": {
+              "count": 1,
+              "rank": [
+                451,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "CAT": {
+              "count": 32,
+              "rank": [
+                105,
+                109,
+                117,
+                103,
+                "107A",
+                216,
+                221,
+                210,
+                218,
+                "216A"
+              ]
+            },
+            "KIT": {
+              "count": 19,
+              "rank": [
+                "058",
+                "003",
+                "056",
+                "009",
+                "059",
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "ALT": {
+              "count": 15,
+              "rank": [
+                352,
+                302,
+                311,
+                309,
+                353,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "HHK": {
+              "count": 1,
+              "rank": [
+                "450A",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NTR": {
+              "count": 1,
+              "rank": [
+                "006"
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": "0",
+            "ALT": 1,
+            "NTR": 1,
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": 1
+          },
+          "absp": "AB",
+          "judge": "TV"
+        },
+        {
+          "name": "Irene van Belzen",
+          "congress": "0",
+          "finals": {
+            "HHP": {
+              "count": 1,
+              "rank": [
+                451,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "CAT": {
+              "count": 32,
+              "rank": [
+                117,
+                218,
+                109,
+                214,
+                210,
+                201,
+                105,
+                112,
+                103,
+                205
+              ]
+            },
+            "KIT": {
+              "count": 19,
+              "rank": [
+                "058",
+                "056",
+                "010",
+                "002",
+                "001",
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "ALT": {
+              "count": 15,
+              "rank": [
+                305,
+                353,
+                352,
+                302,
+                309,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "HHK": {
+              "count": 1,
+              "rank": [
+                "450A",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NTR": {
+              "count": 1,
+              "rank": [
+                "006"
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": "0",
+            "ALT": 1,
+            "NTR": 1,
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": 1
+          },
+          "absp": "AB",
+          "judge": "IVB"
+        },
+        {
+          "name": "Harley DeVilbiss",
+          "congress": "0",
+          "finals": {
+            "HHP": {
+              "count": 1,
+              "rank": [
+                451,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "CAT": {
+              "count": 32,
+              "rank": [
+                105,
+                112,
+                "107A",
+                208,
+                109,
+                220,
+                117,
+                205,
+                201,
+                216
+              ]
+            },
+            "KIT": {
+              "count": 19,
+              "rank": [
+                "009",
+                "003",
+                "057B",
+                "056",
+                "054",
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "ALT": {
+              "count": 15,
+              "rank": [
+                311,
+                302,
+                309,
+                305,
+                352,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "HHK": {
+              "count": 1,
+              "rank": [
+                "450A",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NTR": {
+              "count": 1,
+              "rank": [
+                "006"
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": "0",
+            "ALT": 1,
+            "NTR": 1,
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": 1
+          },
+          "absp": "AB",
+          "judge": "HDV"
+        },
+        {
+          "name": "Phillipa Holmes",
+          "congress": "0",
+          "finals": {
+            "HHP": {
+              "count": 1,
+              "rank": [
+                451,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "CAT": {
+              "count": 32,
+              "rank": [
+                117,
+                105,
+                109,
+                207,
+                213,
+                112,
+                "107A",
+                "216A",
+                218,
+                215
+              ]
+            },
+            "KIT": {
+              "count": 19,
+              "rank": [
+                "011",
+                "056A",
+                "058",
+                "002",
+                "057B",
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "ALT": {
+              "count": 15,
+              "rank": [
+                311,
+                308,
+                353,
+                302,
+                219,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "HHK": {
+              "count": 1,
+              "rank": [
+                "450A",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NTR": {
+              "count": 1,
+              "rank": [
+                "006"
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": "0",
+            "ALT": 1,
+            "NTR": 1,
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": 1
+          },
+          "absp": "AB",
+          "judge": "PH"
+        }
+      ]
+    },
+    {
+      "label": "",
+      "nrings": "0",
+      "rings": []
+    },
+    {
+      "label": "",
+      "nrings": "0",
+      "rings": []
+    },
+    {
+      "label": "",
+      "nrings": "0",
+      "rings": []
+    },
+    {
+      "label": "",
+      "nrings": "0",
+      "rings": []
+    }
+  ],
+  "club": "Belgian TICA Friends",
+  "email": "gerry806@gmail.com",
+  "location": "Essen, Belgium",
+  "format": "2-day back-to-back",
+  "entries": {
+    "001": {
+      "name": "Axel van De Nekker",
+      "breed": "BL"
+    },
+    "010": {
+      "name": "Calaquendi Dolls Diana Mara Henry",
+      "breed": "RD"
+    },
+    "110": {
+      "name": "Legendabastet Barnabas",
+      "breed": "RD"
+    },
+    "002": {
+      "name": "Iskander Iron of Arbor Vitae/Fi",
+      "breed": "MC"
+    },
+    "011": {
+      "name": "Calaquendi Dolls Sunni Grace Charm",
+      "breed": "RD"
+    },
+    "210": {
+      "name": "Rainforest Taro  Morongo",
+      "breed": "BG"
+    },
+    "201": {
+      "name": "Cenglow Maicis",
+      "breed": "AB"
+    },
+    "003": {
+      "name": "Pajocoons Bo of Vineyardroad",
+      "breed": "MC"
+    },
+    "301": {
+      "name": "Laganjalina Bonita",
+      "breed": "AL"
+    },
+    "220": {
+      "name": "Phatpaws Sumo",
+      "breed": "SX"
+    },
+    "112": {
+      "name": "Legendabastet Blueberry Boy",
+      "breed": "RD"
+    },
+    "103": {
+      "name": "Danleigh Orion",
+      "breed": "BI"
+    },
+    "311": {
+      "name": "Adsetlo Beyaz Aslan",
+      "breed": "TV"
+    },
+    "302": {
+      "name": "Doyle du Bois D'Antalys",
+      "breed": "BI"
+    },
+    "221": {
+      "name": "Mahadevishakti Aphrodisiac",
+      "breed": "SX"
+    },
+    "212": {
+      "name": "Black Jack de La Bleu Marquise",
+      "breed": "BS"
+    },
+    "203": {
+      "name": "Omniamea Quia Nominor Leo",
+      "breed": "AB"
+    },
+    "312": {
+      "name": "Aledo Rocky",
+      "breed": "TV"
+    },
+    "213": {
+      "name": "Mykro's Purrfection Out Of Time",
+      "breed": "CR"
+    },
+    "114": {
+      "name": "C's Choice Camilla",
+      "breed": "RD"
+    },
+    "105": {
+      "name": "Smitten Kitten Findus Fluffypants",
+      "breed": "BL"
+    },
+    "006": {
+      "name": "Polypassion Angelica P",
+      "breed": "MC"
+    },
+    "214": {
+      "name": "Out Of Time Insomnia",
+      "breed": "CR"
+    },
+    "205": {
+      "name": "Laganjalina Apollo",
+      "breed": "AC"
+    },
+    "115": {
+      "name": "Rasasayangrags Noa of Allweneedis",
+      "breed": "RD"
+    },
+    "052": {
+      "name": "Abylife Mary Poppins",
+      "breed": "AB"
+    },
+    "305": {
+      "name": "Pajocoons Burgi",
+      "breed": "MC"
+    },
+    "215": {
+      "name": "Yaguar Veracruz of Cats-N-Kits",
+      "breed": "ES"
+    },
+    "116": {
+      "name": "Mittelmeijer Ruslana",
+      "breed": "SB"
+    },
+    "107": {
+      "name": "My Cat's Cradle Great Cadet/Id",
+      "breed": "MC"
+    },
+    "216": {
+      "name": "One-O-One Blue Mediterraneo Of Cats",
+      "breed": "ES"
+    },
+    "207": {
+      "name": "Batifoleurs Bakari",
+      "breed": "BG"
+    },
+    "117": {
+      "name": "Mittelmeijer Roskoshniy Kot Mur",
+      "breed": "SB"
+    },
+    "107A": {
+      "name": "Kiyaras Lightning McQueen",
+      "breed": "MC"
+    },
+    "009": {
+      "name": "Calaquendi Dolls Susanna Briselli",
+      "breed": "RD"
+    },
+    "054": {
+      "name": "Armoracia Sefenya",
+      "breed": "BG"
+    },
+    "451": {
+      "name": "Orange of Falkenhoehe",
+      "breed": "HH"
+    },
+    "450A": {
+      "name": "Laganjalina Cupido",
+      "breed": "HH"
+    },
+    "352": {
+      "name": "Laganjalina Azarro",
+      "breed": "AC"
+    },
+    "216A": {
+      "name": "Smud-Khoi's Si-Sawat Hwan-Ci",
+      "breed": "KT"
+    },
+    "208": {
+      "name": "From bengal House Billabong",
+      "breed": "BG"
+    },
+    "118": {
+      "name": "Yeni van Kedi von Alexis",
+      "breed": "TV"
+    },
+    "109": {
+      "name": "Brettonpark On Target",
+      "breed": "PS"
+    },
+    "055": {
+      "name": "Gold du Clos de Ruy",
+      "breed": "BS"
+    },
+    "353": {
+      "name": "Falkenhoehe Pamina",
+      "breed": "TH"
+    },
+    "308": {
+      "name": "Ragmagic Dr Sheldon Cooper MSC Phd",
+      "breed": "RD"
+    },
+    "218": {
+      "name": "Bender Solarland",
+      "breed": "SI"
+    },
+    "056": {
+      "name": "Mister Blue Stilton de Joncker Van",
+      "breed": "BS"
+    },
+    "309": {
+      "name": "Phatpaws Clufort Wedgewood",
+      "breed": "RD"
+    },
+    "219": {
+      "name": "Buback Fabian Toyaskin",
+      "breed": "SX"
+    },
+    "056A": {
+      "name": "Aurelie van De Nekker",
+      "breed": "BS"
+    },
+    "057": {
+      "name": "Cats-N-Kits Ma Petite La Bardot",
+      "breed": "ES"
+    },
+    "058": {
+      "name": "Poonam Of The Black Moon",
+      "breed": "OS"
+    },
+    "057B": {
+      "name": "Doklao Kobalt Quinn",
+      "breed": "KT"
+    },
+    "059": {
+      "name": "Antony of Larimar",
+      "breed": "TH"
+    }
+  },
+  "options": {
+    "printscore": "0",
+    "namewidth": 36,
+    "mixedcase": 1,
+    "colwidth": 3
+  },
+  "date": "June 2-3, 2012"
+}

@@ -1,0 +1,1874 @@
+{
+  "filename": "120526e.tks",
+  "nshows": "0",
+  "reporter": "Jan Dell",
+  "shows": [
+    {
+      "label": "Saturday",
+      "nrings": 6,
+      "judges": {
+        "YP": "Yvonne Patrick",
+        "LP": "Laurie Patton",
+        "JB": "Jay Bangle",
+        "EW": "Elaine Weitz",
+        "MY": "Marion Yates",
+        "CK": "Clint Knapp"
+      },
+      "rings": [
+        {
+          "name": "Yvonne Patrick",
+          "congress": "0",
+          "finals": {
+            "HHP": {
+              "count": 8,
+              "rank": [
+                "456A",
+                "401A",
+                401,
+                455,
+                "451A",
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "CAT": {
+              "count": 43,
+              "rank": [
+                222,
+                112,
+                223,
+                202,
+                211,
+                109,
+                225,
+                221,
+                104,
+                116
+              ]
+            },
+            "KIT": {
+              "count": 29,
+              "rank": [
+                11,
+                59,
+                62,
+                14,
+                67,
+                66,
+                52,
+                1,
+                64,
+                56
+              ]
+            },
+            "ALT": {
+              "count": 18,
+              "rank": [
+                306,
+                309,
+                351,
+                352,
+                302,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NTR": {
+              "rank": []
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": "0",
+            "ALT": 1,
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": "0"
+          },
+          "absp": "AB",
+          "judge": "YP"
+        },
+        {
+          "name": "Elaine Weitz",
+          "congress": "0",
+          "finals": {
+            "HHP": {
+              "count": 8,
+              "rank": [
+                455,
+                "456A",
+                "401A",
+                "451A",
+                401,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "CAT": {
+              "count": 43,
+              "rank": [
+                223,
+                221,
+                112,
+                102,
+                109,
+                119,
+                202,
+                209,
+                104,
+                120
+              ]
+            },
+            "KIT": {
+              "count": 30,
+              "rank": [
+                11,
+                53,
+                67,
+                51,
+                54,
+                64,
+                65,
+                62,
+                5,
+                14
+              ]
+            },
+            "ALT": {
+              "count": 18,
+              "rank": [
+                307,
+                306,
+                355,
+                357,
+                304,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NTR": {
+              "rank": []
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": "0",
+            "ALT": 1,
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": "0"
+          },
+          "absp": "AB",
+          "judge": "EW"
+        },
+        {
+          "name": "Jay Bangle",
+          "congress": "0",
+          "finals": {
+            "HHP": {
+              "count": 8,
+              "rank": [
+                455,
+                452,
+                451,
+                "456A",
+                "401A",
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "CAT": {
+              "count": 43,
+              "rank": [
+                202,
+                110,
+                223,
+                219,
+                102,
+                221,
+                225,
+                203,
+                103,
+                229
+              ]
+            },
+            "KIT": {
+              "count": 29,
+              "rank": [
+                14,
+                53,
+                66,
+                59,
+                12,
+                64,
+                67,
+                65,
+                9,
+                6
+              ]
+            },
+            "ALT": {
+              "count": 18,
+              "rank": [
+                351,
+                306,
+                307,
+                355,
+                309,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NTR": {
+              "rank": []
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": "0",
+            "ALT": 1,
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": "0"
+          },
+          "absp": "AB",
+          "judge": "JB"
+        },
+        {
+          "name": "Clint Knapp",
+          "congress": "0",
+          "finals": {
+            "SHCAT": {
+              "count": 25,
+              "rank": [
+                202,
+                221,
+                205,
+                201,
+                223,
+                222,
+                219,
+                229,
+                228,
+                214
+              ]
+            },
+            "SHKIT": {
+              "count": 13,
+              "rank": [
+                65,
+                53,
+                67,
+                51,
+                64,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHHHP": {
+              "count": 2,
+              "rank": [
+                "401A",
+                401,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHALT": {
+              "count": 11,
+              "rank": [
+                302,
+                311,
+                307,
+                306,
+                305,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHNTR": {
+              "count": "",
+              "rank": [
+                ""
+              ]
+            },
+            "SHHHP": {
+              "count": 9,
+              "rank": [
+                "456A",
+                451,
+                455,
+                451,
+                454,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHKIT": {
+              "count": 14,
+              "rank": [
+                12,
+                9,
+                2,
+                4,
+                15,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHCAT": {
+              "count": 18,
+              "rank": [
+                102,
+                116,
+                110,
+                101,
+                104,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHALT": {
+              "count": 7,
+              "rank": [
+                357,
+                351,
+                352,
+                355,
+                358,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHNTR": {
+              "count": 1,
+              "rank": [
+                601
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": "0",
+            "ALT": 1,
+            "NTR": 1,
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": "0"
+          },
+          "absp": "SP",
+          "judge": "CK"
+        },
+        {
+          "name": "Marion Yates",
+          "congress": "0",
+          "finals": {
+            "SHCAT": {
+              "count": 25,
+              "rank": [
+                223,
+                202,
+                219,
+                226,
+                222,
+                201,
+                218,
+                229,
+                221,
+                203
+              ]
+            },
+            "SHKIT": {
+              "count": 15,
+              "rank": [
+                62,
+                53,
+                51,
+                55,
+                65,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHHHP": {
+              "count": 2,
+              "rank": [
+                "401A",
+                401,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHALT": {
+              "count": 11,
+              "rank": [
+                306,
+                309,
+                307,
+                302,
+                304,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHNTR": {
+              "count": "",
+              "rank": [
+                ""
+              ]
+            },
+            "SHHHP": {
+              "count": 8,
+              "rank": [
+                455,
+                "451A",
+                "456A",
+                454,
+                451,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHKIT": {
+              "count": 14,
+              "rank": [
+                12,
+                14,
+                9,
+                2,
+                4,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHCAT": {
+              "count": 18,
+              "rank": [
+                102,
+                112,
+                101,
+                110,
+                105,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHALT": {
+              "count": 7,
+              "rank": [
+                351,
+                355,
+                357,
+                352,
+                358,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHNTR": {
+              "count": 1,
+              "rank": [
+                601
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": "0",
+            "ALT": 1,
+            "NTR": 1,
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": "0"
+          },
+          "absp": "SP",
+          "judge": "MY"
+        },
+        {
+          "name": "Laurie Patton",
+          "congress": "0",
+          "finals": {
+            "SHCAT": {
+              "count": 25,
+              "rank": [
+                223,
+                202,
+                219,
+                203,
+                220,
+                222,
+                229,
+                226,
+                221,
+                210
+              ]
+            },
+            "SHKIT": {
+              "count": 16,
+              "rank": [
+                67,
+                65,
+                64,
+                63,
+                53,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHHHP": {
+              "count": 2,
+              "rank": [
+                "401A",
+                401,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHALT": {
+              "count": 11,
+              "rank": [
+                306,
+                307,
+                309,
+                304,
+                310,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHNTR": {
+              "rank": []
+            },
+            "SHHHP": {
+              "count": 6,
+              "rank": [
+                "456A",
+                455,
+                "451A",
+                451,
+                452,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHKIT": {
+              "count": 14,
+              "rank": [
+                12,
+                5,
+                9,
+                14,
+                11,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHCAT": {
+              "count": 18,
+              "rank": [
+                112,
+                108,
+                120,
+                116,
+                101,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHALT": {
+              "count": 7,
+              "rank": [
+                357,
+                351,
+                355,
+                358,
+                352,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHNTR": {
+              "rank": []
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": "0",
+            "ALT": 1,
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": "0"
+          },
+          "absp": "SP",
+          "judge": "LP"
+        }
+      ]
+    },
+    {
+      "label": "Sunday",
+      "nrings": 6,
+      "judges": {
+        "EC": "Ellen Crockett",
+        "LP": "Laurie Patton",
+        "MP": "Melissa Parsley",
+        "MY": "Marion Yates",
+        "CK": "Clint Knapp",
+        "LJ": "Lynne Judge"
+      },
+      "rings": [
+        {
+          "name": "Ellen Crockett",
+          "congress": "0",
+          "finals": {
+            "HHP": {
+              "count": 9,
+              "rank": [
+                "451A",
+                455,
+                "456A",
+                "401A",
+                454,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "CAT": {
+              "count": 39,
+              "rank": [
+                223,
+                112,
+                202,
+                102,
+                111,
+                201,
+                101,
+                229,
+                221,
+                219
+              ]
+            },
+            "KIT": {
+              "count": 28,
+              "rank": [
+                12,
+                13,
+                51,
+                66,
+                9,
+                62,
+                6,
+                65,
+                52,
+                1
+              ]
+            },
+            "ALT": {
+              "count": 18,
+              "rank": [
+                357,
+                351,
+                306,
+                304,
+                307,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "HHK": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": "0",
+            "ALT": 1,
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": "0"
+          },
+          "absp": "AB",
+          "judge": "EC"
+        },
+        {
+          "name": "Lynne Judge",
+          "congress": "0",
+          "finals": {
+            "HHP": {
+              "count": 9,
+              "rank": [
+                455,
+                "456A",
+                401,
+                "451A",
+                454,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "CAT": {
+              "count": 39,
+              "rank": [
+                102,
+                108,
+                101,
+                222,
+                209,
+                214,
+                202,
+                229,
+                120,
+                116
+              ]
+            },
+            "KIT": {
+              "count": 28,
+              "rank": [
+                66,
+                65,
+                1,
+                9,
+                56,
+                12,
+                2,
+                59,
+                52,
+                3
+              ]
+            },
+            "ALT": {
+              "count": 18,
+              "rank": [
+                306,
+                351,
+                304,
+                352,
+                354,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "HHK": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": "0",
+            "ALT": 1,
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": "0"
+          },
+          "absp": "AB",
+          "judge": "LJ"
+        },
+        {
+          "name": "Melissa Parsley",
+          "congress": "0",
+          "finals": {
+            "HHP": {
+              "count": 9,
+              "rank": [
+                455,
+                454,
+                "401A",
+                401,
+                451,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "CAT": {
+              "count": 40,
+              "rank": [
+                202,
+                219,
+                221,
+                110,
+                228,
+                102,
+                223,
+                222,
+                229,
+                112
+              ]
+            },
+            "KIT": {
+              "count": 29,
+              "rank": [
+                62,
+                65,
+                64,
+                2,
+                66,
+                12,
+                67,
+                53,
+                10,
+                5
+              ]
+            },
+            "ALT": {
+              "count": 17,
+              "rank": [
+                306,
+                305,
+                307,
+                351,
+                354,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "HHK": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": "0",
+            "ALT": 1,
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": "0"
+          },
+          "absp": "AB",
+          "judge": "MP"
+        },
+        {
+          "name": "Clint Knapp",
+          "congress": "0",
+          "finals": {
+            "SHCAT": {
+              "count": 24,
+              "rank": [
+                202,
+                219,
+                223,
+                222,
+                214,
+                205,
+                201,
+                229,
+                221,
+                null
+              ]
+            },
+            "SHKIT": {
+              "count": 16,
+              "rank": [
+                65,
+                64,
+                51,
+                55,
+                67,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHHHP": {
+              "count": 2,
+              "rank": [
+                "401A",
+                401,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHALT": {
+              "count": 9,
+              "rank": [
+                304,
+                307,
+                302,
+                309,
+                305,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHHHK": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHHHP": {
+              "count": 9,
+              "rank": [
+                "456A",
+                "451A",
+                455,
+                451,
+                454,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHKIT": {
+              "count": 13,
+              "rank": [
+                9,
+                2,
+                13,
+                4,
+                12,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHCAT": {
+              "count": 15,
+              "rank": [
+                102,
+                116,
+                110,
+                101,
+                109,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHALT": {
+              "count": 8,
+              "rank": [
+                351,
+                357,
+                354,
+                352,
+                355,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHHHK": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": "0",
+            "ALT": 1,
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": "0"
+          },
+          "absp": "SP",
+          "judge": "CK"
+        },
+        {
+          "name": "Marion Yates",
+          "congress": "0",
+          "finals": {
+            "SHCAT": {
+              "count": 24,
+              "rank": [
+                223,
+                202,
+                219,
+                222,
+                229,
+                201,
+                208,
+                221,
+                213,
+                null
+              ]
+            },
+            "SHKIT": {
+              "count": 16,
+              "rank": [
+                62,
+                65,
+                66,
+                51,
+                64,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHHHP": {
+              "count": 2,
+              "rank": [
+                "401A",
+                401,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHALT": {
+              "count": 9,
+              "rank": [
+                304,
+                307,
+                306,
+                305,
+                309,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHHHK": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHHHP": {
+              "count": 8,
+              "rank": [
+                455,
+                "451A",
+                "456A",
+                454,
+                451,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHKIT": {
+              "count": 13,
+              "rank": [
+                12,
+                9,
+                14,
+                2,
+                4,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHCAT": {
+              "count": 15,
+              "rank": [
+                110,
+                112,
+                105,
+                102,
+                117,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHALT": {
+              "count": 8,
+              "rank": [
+                351,
+                357,
+                354,
+                352,
+                355,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHHHK": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": "0",
+            "ALT": 1,
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": "0"
+          },
+          "absp": "SP",
+          "judge": "MY"
+        },
+        {
+          "name": "Laurie Patton",
+          "congress": "0",
+          "finals": {
+            "SHCAT": {
+              "count": 24,
+              "rank": [
+                223,
+                202,
+                203,
+                219,
+                222,
+                226,
+                221,
+                229,
+                208,
+                null
+              ]
+            },
+            "SHKIT": {
+              "count": 16,
+              "rank": [
+                65,
+                67,
+                66,
+                64,
+                62,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHHHP": {
+              "count": 2,
+              "rank": [
+                "401A",
+                401,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHALT": {
+              "count": 10,
+              "rank": [
+                306,
+                309,
+                307,
+                310,
+                305,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHHHK": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHHHP": {
+              "count": 6,
+              "rank": [
+                "456A",
+                455,
+                "451A",
+                451,
+                452,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHKIT": {
+              "count": 13,
+              "rank": [
+                12,
+                9,
+                5,
+                1,
+                2,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHCAT": {
+              "count": 15,
+              "rank": [
+                112,
+                101,
+                108,
+                102,
+                116,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHALT": {
+              "count": 8,
+              "rank": [
+                356,
+                351,
+                357,
+                354,
+                355,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHHHK": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": "0",
+            "ALT": 1,
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": "0"
+          },
+          "absp": "SP",
+          "judge": "LP"
+        }
+      ]
+    },
+    {
+      "label": "",
+      "nrings": "0",
+      "rings": []
+    },
+    {
+      "label": "",
+      "nrings": "0",
+      "rings": []
+    },
+    {
+      "label": "",
+      "nrings": "0",
+      "rings": []
+    },
+    {
+      "label": "",
+      "nrings": "0",
+      "rings": []
+    }
+  ],
+  "club": "International Specialty Club",
+  "email": "woodpilemcs@aol.com",
+  "location": "Enumclaw, Washington",
+  "format": "2-day back-to-back",
+  "entries": {
+    "358": {
+      "name": "Skan Adonis",
+      "breed": "SI"
+    },
+    "10": {
+      "name": "Smokeycoons Chelan of Bigrivercoon",
+      "breed": "MC"
+    },
+    "11": {
+      "name": "Mymains Charie Parfait",
+      "breed": "MC"
+    },
+    "12": {
+      "name": "Scrimshaw My Guy of Wallycats",
+      "breed": "PS"
+    },
+    "13": {
+      "name": "Kaperkats Chanel",
+      "breed": "PL"
+    },
+    "14": {
+      "name": "Furreal Rejoice of Amazndolls",
+      "breed": "RD"
+    },
+    "51": {
+      "name": "Herus Black Lace",
+      "breed": "AB"
+    },
+    "15": {
+      "name": "Hugaragdoll Bellissimo",
+      "breed": "RD"
+    },
+    "52": {
+      "name": "Ironforge Bright Lights",
+      "breed": "AS"
+    },
+    "53": {
+      "name": "Ironforge Champagne on Ice",
+      "breed": "AS"
+    },
+    "54": {
+      "name": "Heavensdoor Gabriel of Seawillow",
+      "breed": "BG"
+    },
+    "55": {
+      "name": "Kamisha Practical Magic",
+      "breed": "BG"
+    },
+    "56": {
+      "name": "Kamisha Fan Dancer",
+      "breed": "BG"
+    },
+    "59": {
+      "name": "Laura of Kotoffski/we",
+      "breed": "BS"
+    },
+    "201": {
+      "name": "Herus Lacey Underalls",
+      "breed": "AB"
+    },
+    "120": {
+      "name": "Bestears Bernadette",
+      "breed": "SFL"
+    },
+    "202": {
+      "name": "Ironforge Omega Red",
+      "breed": "AS"
+    },
+    "401": {
+      "name": "Grainne O Malley",
+      "breed": "HH"
+    },
+    "203": {
+      "name": "Dadaelis Cybele's Heart of Traipse",
+      "breed": "BG"
+    },
+    "601": {
+      "name": "Junglekatz Makawao Snowman",
+      "breed": "BG"
+    },
+    "205": {
+      "name": "Dadaelis Black Dahlia of Traipse",
+      "breed": "BG"
+    },
+    "208": {
+      "name": "Dadaelis Imagine",
+      "breed": "BG"
+    },
+    "209": {
+      "name": "Rowan Appetite4Destruction",
+      "breed": "BG"
+    },
+    "62": {
+      "name": "Judge's Choice Simply Angelic",
+      "breed": "CR"
+    },
+    "63": {
+      "name": "Facehuggers Chicksie Tweet",
+      "breed": "DR"
+    },
+    "64": {
+      "name": "Sunspirit the Lion King",
+      "breed": "ES"
+    },
+    "65": {
+      "name": "Sinergia Spinnenmann of Stegra",
+      "breed": "OS"
+    },
+    "66": {
+      "name": "Evergreen Dakota Moon",
+      "breed": "PB"
+    },
+    "67": {
+      "name": "RKGems Ziva Zircon",
+      "breed": "SF"
+    },
+    "1": {
+      "name": "Balimoor Babybell",
+      "breed": "BA"
+    },
+    "2": {
+      "name": "Sunspirit Champagne Wishes",
+      "breed": "HI"
+    },
+    "210": {
+      "name": "Ralph Lauren of Lovely Panther",
+      "breed": "BS"
+    },
+    "3": {
+      "name": "Favorit Tails Xerxes",
+      "breed": "KBL"
+    },
+    "211": {
+      "name": "Bella's Eleanor Blue v Wernerwald",
+      "breed": "BS"
+    },
+    "4": {
+      "name": "Kuril Pearl Gloriya",
+      "breed": "KBL"
+    },
+    "5": {
+      "name": "Winston Favorit Tails",
+      "breed": "KBL"
+    },
+    "213": {
+      "name": "Catwalk's Very Much Expected",
+      "breed": "BS"
+    },
+    "6": {
+      "name": "Favorit Tails Xela",
+      "breed": "KBL"
+    },
+    "214": {
+      "name": "Cheshirelady Elenor",
+      "breed": "BS"
+    },
+    "9": {
+      "name": "Bigrivercoon Xena",
+      "breed": "MC"
+    },
+    "451": {
+      "name": "Walter Morgan",
+      "breed": "HH"
+    },
+    "452": {
+      "name": "Batman",
+      "breed": "HH"
+    },
+    "451A": {
+      "name": "Junior",
+      "breed": "HH"
+    },
+    "218": {
+      "name": "Derry-Hill Are We Cancer?/CF",
+      "breed": "DR"
+    },
+    "219": {
+      "name": "RainingRexes Carmen",
+      "breed": "DR"
+    },
+    "454": {
+      "name": "Ginger",
+      "breed": "HH"
+    },
+    "455": {
+      "name": "Newton of Cocoaspride",
+      "breed": "HH"
+    },
+    "101": {
+      "name": "Balimoor My Little Belle",
+      "breed": "BA"
+    },
+    "102": {
+      "name": "Chittagong Hot Spot",
+      "breed": "BI"
+    },
+    "103": {
+      "name": "Chittagong Isolda",
+      "breed": "BI"
+    },
+    "220": {
+      "name": "Ginoba MarcoPolo of Morado",
+      "breed": "ES"
+    },
+    "104": {
+      "name": "Nightwind Dearly Beloved of Sancan",
+      "breed": "HI"
+    },
+    "221": {
+      "name": "Karabel's White Lightning",
+      "breed": "ES"
+    },
+    "302": {
+      "name": "Tassam Lady Lindisfarne",
+      "breed": "BA"
+    },
+    "105": {
+      "name": "Dreamhimi Indigo Majikat",
+      "breed": "HI"
+    },
+    "222": {
+      "name": "Adobe Selena of Stegra",
+      "breed": "OS"
+    },
+    "223": {
+      "name": "Expressivepixie Frank James",
+      "breed": "PB"
+    },
+    "304": {
+      "name": "Balimoor Belles Liam",
+      "breed": "BA"
+    },
+    "305": {
+      "name": "Dreamhimi Boy Toy",
+      "breed": "HI"
+    },
+    "108": {
+      "name": "Woodpile Cajoled",
+      "breed": "MC"
+    },
+    "225": {
+      "name": "Kaperkats Kolby",
+      "breed": "PB"
+    },
+    "306": {
+      "name": "Cascademtn Creme Brulee of CoonAmor",
+      "breed": "MC"
+    },
+    "109": {
+      "name": "Woodpile Purrcussion",
+      "breed": "MC"
+    },
+    "226": {
+      "name": "Evergreen Coyote Sunset",
+      "breed": "PB"
+    },
+    "307": {
+      "name": "Vanir Ullr Mountain Explorer",
+      "breed": "NF"
+    },
+    "228": {
+      "name": "Disney Mary Silver of Exoticstar",
+      "breed": "SF"
+    },
+    "309": {
+      "name": "Balimoor Cody Osnowdrift",
+      "breed": "OL"
+    },
+    "229": {
+      "name": "Katzalano Tip O' A Coco Bean",
+      "breed": "SG"
+    },
+    "456A": {
+      "name": "Kiera",
+      "breed": "HH"
+    },
+    "110": {
+      "name": "Mainesuspect Yuma of Cascademtn",
+      "breed": "MC"
+    },
+    "111": {
+      "name": "Mymains Cherie Parfait",
+      "breed": "MC"
+    },
+    "112": {
+      "name": "Wallycats Charlies Angel",
+      "breed": "PS"
+    },
+    "310": {
+      "name": "Kaperkats Sophie",
+      "breed": "PL"
+    },
+    "311": {
+      "name": "Hugaragdoll Tobias",
+      "breed": "RD"
+    },
+    "401A": {
+      "name": "Brianna",
+      "breed": "HH"
+    },
+    "116": {
+      "name": "Marlcreek Mattias of Amazndolls",
+      "breed": "RD"
+    },
+    "117": {
+      "name": "Hugaragdoll Tyra Banks",
+      "breed": "RD"
+    },
+    "351": {
+      "name": "Kelloggs Hit The Lights",
+      "breed": "AS"
+    },
+    "352": {
+      "name": "Fraser Valley Fey Dante's Inferno",
+      "breed": "BG"
+    },
+    "119": {
+      "name": "Hugaragdoll Princess Purrcilla",
+      "breed": "RD"
+    },
+    "354": {
+      "name": "Cheshirelady Horta of Excalibur",
+      "breed": "BS"
+    },
+    "355": {
+      "name": "Kaperkats Kramer II",
+      "breed": "PB"
+    },
+    "356": {
+      "name": "Mai Thai Gizmo of Flambo",
+      "breed": "SI"
+    },
+    "357": {
+      "name": "Skan Deja Bleu",
+      "breed": "SI"
+    }
+  },
+  "options": {
+    "printscore": "0",
+    "namewidth": 36,
+    "mixedcase": 0,
+    "colwidth": 3
+  },
+  "date": "May 26-27, 2012"
+}

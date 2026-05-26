@@ -1,0 +1,1022 @@
+{
+  "filename": "Gagny Juin 2012.tks",
+  "nshows": "0",
+  "reporter": "Pascal REMY",
+  "shows": [
+    {
+      "label": "Saturday",
+      "nrings": 4,
+      "judges": {
+        "BR": "Barbara Ray",
+        "MLL": "Mary-Lise de Landtsheer",
+        "ANG": "Aline Noel-Garel",
+        "HG": "Hélène Guillaume"
+      },
+      "rings": [
+        {
+          "name": "Barbara Ray",
+          "congress": "0",
+          "finals": {
+            "HHP": {
+              "count": 1,
+              "rank": [
+                451,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "CAT": {
+              "count": 71,
+              "rank": [
+                156,
+                146,
+                215,
+                118,
+                228,
+                201,
+                112,
+                138,
+                154,
+                206
+              ]
+            },
+            "KIT": {
+              "count": 29,
+              "rank": [
+                10,
+                53,
+                "04",
+                22,
+                59,
+                "01",
+                "05",
+                14,
+                21,
+                51
+              ]
+            },
+            "NBA": {
+              "count": 1,
+              "rank": [
+                551
+              ]
+            },
+            "ALT": {
+              "count": 9,
+              "rank": [
+                352,
+                "303A",
+                303,
+                301,
+                351,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": 1,
+            "ALT": 1,
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": "0"
+          },
+          "absp": "AB",
+          "judge": "BR"
+        },
+        {
+          "name": "Aline Noel-Garel",
+          "congress": "0",
+          "finals": {
+            "HHP": {
+              "count": 1,
+              "rank": [
+                451,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "CAT": {
+              "count": 72,
+              "rank": [
+                156,
+                146,
+                154,
+                110,
+                157,
+                212,
+                228,
+                210,
+                106,
+                137
+              ]
+            },
+            "KIT": {
+              "count": 29,
+              "rank": [
+                58,
+                14,
+                22,
+                53,
+                "05A",
+                55,
+                24,
+                "05",
+                26,
+                51
+              ]
+            },
+            "NBA": {
+              "count": 1,
+              "rank": [
+                551
+              ]
+            },
+            "ALT": {
+              "count": 10,
+              "rank": [
+                351,
+                301,
+                305,
+                "303A",
+                302,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": 1,
+            "ALT": 1,
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": "0"
+          },
+          "absp": "AB",
+          "judge": "ANG"
+        },
+        {
+          "name": "Mary-Lise de Landtsheer",
+          "congress": "0",
+          "finals": {
+            "HHP": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "CAT": {
+              "count": 71,
+              "rank": [
+                146,
+                156,
+                110,
+                217,
+                106,
+                221,
+                225,
+                134,
+                130,
+                236
+              ]
+            },
+            "KIT": {
+              "count": 29,
+              "rank": [
+                58,
+                "05A",
+                "01",
+                22,
+                14,
+                24,
+                52,
+                20,
+                55,
+                10
+              ]
+            },
+            "NBA": {
+              "count": 1,
+              "rank": [
+                551
+              ]
+            },
+            "ALT": {
+              "count": 10,
+              "rank": [
+                303,
+                302,
+                307,
+                352,
+                305,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": 1,
+            "ALT": 1,
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": "0"
+          },
+          "absp": "AB",
+          "judge": "MLL"
+        },
+        {
+          "name": "Hélène Guillaume",
+          "congress": "0",
+          "finals": {
+            "HHP": {
+              "count": 1,
+              "rank": [
+                451,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "CAT": {
+              "count": 69,
+              "rank": [
+                156,
+                110,
+                221,
+                146,
+                154,
+                202,
+                228,
+                148,
+                236,
+                137
+              ]
+            },
+            "KIT": {
+              "count": 28,
+              "rank": [
+                "05A",
+                22,
+                58,
+                24,
+                55,
+                53,
+                "05",
+                51,
+                23,
+                52
+              ]
+            },
+            "NBA": {
+              "count": 1,
+              "rank": [
+                551
+              ]
+            },
+            "ALT": {
+              "count": 10,
+              "rank": [
+                302,
+                301,
+                305,
+                310,
+                351,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": 1,
+            "NBA": 1,
+            "ALT": 1,
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": "0"
+          },
+          "absp": "AB",
+          "judge": "HG"
+        }
+      ]
+    },
+    {
+      "label": "Sunday",
+      "nrings": 5,
+      "judges": {
+        "PP": "Pascale Portelas",
+        "BR": "Barbara Ray (MC congress)",
+        "MLL": "Mary-Lise de Landtsheer",
+        "HG": "Hélène Guillaume"
+      },
+      "rings": [
+        {
+          "name": "Barbara Ray",
+          "congress": "0",
+          "finals": {
+            "CAT": {
+              "count": 68,
+              "rank": [
+                156,
+                146,
+                215,
+                130,
+                228,
+                106,
+                202,
+                154,
+                212,
+                110
+              ]
+            },
+            "KIT": {
+              "count": 28,
+              "rank": [
+                18,
+                "05A",
+                58,
+                "01",
+                10,
+                22,
+                "05",
+                17,
+                51,
+                55
+              ]
+            },
+            "NBA": {
+              "count": 1,
+              "rank": [
+                551
+              ]
+            },
+            "ALT": {
+              "count": 9,
+              "rank": [
+                352,
+                303,
+                351,
+                "303A",
+                301,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": "0",
+            "NBA": 1,
+            "ALT": 1,
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": "0"
+          },
+          "absp": "AB",
+          "judge": "BR"
+        },
+        {
+          "name": "Pascale Portelas",
+          "congress": "0",
+          "finals": {
+            "CAT": {
+              "count": 70,
+              "rank": [
+                "154A",
+                110,
+                212,
+                217,
+                137,
+                148,
+                156,
+                225,
+                104,
+                113
+              ]
+            },
+            "KIT": {
+              "count": 28,
+              "rank": [
+                22,
+                13,
+                51,
+                "01",
+                21,
+                24,
+                18,
+                "06",
+                58,
+                16
+              ]
+            },
+            "NBA": {
+              "count": 1,
+              "rank": [
+                551
+              ]
+            },
+            "ALT": {
+              "count": 9,
+              "rank": [
+                303,
+                "303A",
+                308,
+                301,
+                351,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": "0",
+            "NBA": 1,
+            "ALT": 1,
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": "0"
+          },
+          "absp": "AB",
+          "judge": "PP"
+        },
+        {
+          "name": "Mary-Lise de Landtsheer",
+          "congress": "0",
+          "finals": {
+            "CAT": {
+              "count": 70,
+              "rank": [
+                156,
+                146,
+                110,
+                212,
+                154,
+                106,
+                112,
+                202,
+                137,
+                221
+              ]
+            },
+            "KIT": {
+              "count": 28,
+              "rank": [
+                18,
+                58,
+                "05A",
+                "01",
+                22,
+                24,
+                55,
+                10,
+                26,
+                15
+              ]
+            },
+            "NBA": {
+              "count": 1,
+              "rank": [
+                551
+              ]
+            },
+            "ALT": {
+              "count": 9,
+              "rank": [
+                303,
+                305,
+                308,
+                351,
+                310,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": "0",
+            "NBA": 1,
+            "ALT": 1,
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": "0"
+          },
+          "absp": "AB",
+          "judge": "MLL"
+        },
+        {
+          "name": "Hélène Guillaume",
+          "congress": "0",
+          "finals": {
+            "CAT": {
+              "count": 69,
+              "rank": [
+                156,
+                110,
+                146,
+                154,
+                221,
+                148,
+                201,
+                228,
+                137,
+                236
+              ]
+            },
+            "KIT": {
+              "count": 27,
+              "rank": [
+                22,
+                58,
+                18,
+                "05A",
+                24,
+                55,
+                "09",
+                51,
+                26,
+                "01"
+              ]
+            },
+            "NBA": {
+              "count": 1,
+              "rank": [
+                551
+              ]
+            },
+            "ALT": {
+              "count": 9,
+              "rank": [
+                303,
+                305,
+                308,
+                310,
+                351,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": "0",
+            "NBA": 1,
+            "ALT": 1,
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": "0"
+          },
+          "absp": "AB",
+          "judge": "HG"
+        },
+        {
+          "name": "Barbara Ray (MC congress)",
+          "congress": "0",
+          "finals": {
+            "SHCAT": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHKIT": {
+              "rank": []
+            },
+            "SHNBA": {
+              "rank": []
+            },
+            "SHALT": {
+              "rank": []
+            },
+            "LHCAT": {
+              "count": 24,
+              "rank": [
+                130,
+                134,
+                137,
+                116,
+                115,
+                119,
+                "122C",
+                124,
+                125,
+                null
+              ]
+            },
+            "LHKIT": {
+              "rank": []
+            },
+            "LHNBA": {
+              "rank": []
+            },
+            "LHALT": {
+              "rank": []
+            }
+          },
+          "classes": {
+            "NBP": "0",
+            "HHP": "0",
+            "NBA": "0",
+            "ALT": "0",
+            "NTR": "0",
+            "KIT": "0",
+            "CAT": 1,
+            "HHK": "0"
+          },
+          "absp": "SP",
+          "judge": "BR"
+        }
+      ]
+    },
+    {
+      "label": "",
+      "nrings": "0",
+      "rings": []
+    },
+    {
+      "label": "",
+      "nrings": "0",
+      "rings": []
+    },
+    {
+      "label": "",
+      "nrings": "0",
+      "rings": []
+    },
+    {
+      "label": "",
+      "nrings": "0",
+      "rings": []
+    }
+  ],
+  "club": "Shadow & Light",
+  "email": "pascal-remy@wanadoo.fr",
+  "format": "2-day back-to-back",
+  "location": "Gagny, France",
+  "entries": {
+    "10": {
+      "name": "Mainefield's Aragon",
+      "breed": "MC"
+    },
+    "13": {
+      "name": "High Quality Bellamoondo",
+      "breed": "MC"
+    },
+    "14": {
+      "name": "Hywel Killyan's Forest",
+      "breed": "NF"
+    },
+    "51": {
+      "name": "Hashana des Monts du Courroux",
+      "breed": "AB"
+    },
+    "15": {
+      "name": "Hermione of Candy Katt's",
+      "breed": "NF"
+    },
+    "52": {
+      "name": "Herroga des Monts du Courroux",
+      "breed": "AB"
+    },
+    "16": {
+      "name": "Umbra Shiloh of Noah's Ark",
+      "breed": "OL"
+    },
+    "53": {
+      "name": "Grizzly de Bengals FR",
+      "breed": "BG"
+    },
+    "17": {
+      "name": "Sirius Black of Noah's Ark",
+      "breed": "OL"
+    },
+    "18": {
+      "name": "Hiroshima Monamour Nevesdulagonbleu",
+      "breed": "PS"
+    },
+    "55": {
+      "name": "Nadine",
+      "breed": "BS"
+    },
+    "58": {
+      "name": "Saigon Hacker",
+      "breed": "CR"
+    },
+    "59": {
+      "name": "Wanda Goldbrick of Noah's Ark",
+      "breed": "SI"
+    },
+    "201": {
+      "name": "Batifoleurs Wild Leopoldine",
+      "breed": "BG"
+    },
+    "202": {
+      "name": "Batifoleurs Bakari",
+      "breed": "BG"
+    },
+    "124": {
+      "name": "Lindhardt's Sweet Clementine",
+      "breed": "MC"
+    },
+    "206": {
+      "name": "Thecatslove Gamine",
+      "breed": "BO"
+    },
+    "125": {
+      "name": "Princeton Cloud 7 Noah's Ark",
+      "breed": "MC"
+    },
+    "20": {
+      "name": "Hernani des Anges de Vaire",
+      "breed": "PS"
+    },
+    "21": {
+      "name": "Hermine des Anges de Vaire",
+      "breed": "PS"
+    },
+    "22": {
+      "name": "Gessy de Ragakitty",
+      "breed": "RD"
+    },
+    "23": {
+      "name": "Regencyrags Pont L'Eveque Delicacy",
+      "breed": "RD"
+    },
+    "24": {
+      "name": "Siempre Amar Lilly Belle de Ragakitty",
+      "breed": "RD"
+    },
+    "26": {
+      "name": "Hazael de la Rivaleraie",
+      "breed": "SO"
+    },
+    "210": {
+      "name": "Gerry de Tatouine",
+      "breed": "CX"
+    },
+    "130": {
+      "name": "Kiyaras Lightning Mcqueen",
+      "breed": "MC"
+    },
+    "212": {
+      "name": "Ideal Dream Godzilla",
+      "breed": "CR"
+    },
+    "215": {
+      "name": "Gossip Girl du Temple des Pharaons",
+      "breed": "CR"
+    },
+    "134": {
+      "name": "Big Hannibal's Maverick",
+      "breed": "MC"
+    },
+    "451": {
+      "name": "Feydo",
+      "breed": ""
+    },
+    "217": {
+      "name": "Grain de Folie du Temple des Pharaons",
+      "breed": "CR"
+    },
+    "137": {
+      "name": "Kiyaras Lysander",
+      "breed": "MC"
+    },
+    "138": {
+      "name": "Kiyaras Kronos",
+      "breed": "MC"
+    },
+    "05A": {
+      "name": "Sitalas Happy",
+      "breed": "MC"
+    },
+    "301": {
+      "name": "Winston Churchyll of Noah's Ark",
+      "breed": "BA"
+    },
+    "104": {
+      "name": "Jello Mariner of Noah's Ark",
+      "breed": "BA"
+    },
+    "221": {
+      "name": "Eragon d'Agassac",
+      "breed": "ES"
+    },
+    "302": {
+      "name": "Dharma Blue Team",
+      "breed": "BI"
+    },
+    "303": {
+      "name": "Einstein de Chatterley",
+      "breed": "BI"
+    },
+    "106": {
+      "name": "Gnocchi de Chatterley",
+      "breed": "BI"
+    },
+    "303A": {
+      "name": "Furious Cat du Domaine d'Orion",
+      "breed": "MC"
+    },
+    "305": {
+      "name": "Madawaska's Falling In Love",
+      "breed": "MC"
+    },
+    "225": {
+      "name": "Songgwangsa Hiroko of Ideal Dream",
+      "breed": "JB"
+    },
+    "307": {
+      "name": "Gjovik du Clos des Bleuets",
+      "breed": "NF"
+    },
+    "308": {
+      "name": "Follow Me de la Bruyere",
+      "breed": "PS"
+    },
+    "146": {
+      "name": "Brettonpark On Target",
+      "breed": "PS"
+    },
+    "228": {
+      "name": "Durrdana's Nugat Drop",
+      "breed": "OS"
+    },
+    "148": {
+      "name": "Ghost de l'Edelweiss",
+      "breed": "PS"
+    },
+    "01": {
+      "name": "Hit Cat Eternal de l'Incaougji",
+      "breed": "BI"
+    },
+    "04": {
+      "name": "Janis Joplin Coonkitty",
+      "breed": "MC"
+    },
+    "05": {
+      "name": "Cascademin C Chanel",
+      "breed": "MC"
+    },
+    "06": {
+      "name": "Hannibal Somacoon's",
+      "breed": "MC"
+    },
+    "09": {
+      "name": "Iskander Iron of Arbor Vitae",
+      "breed": "MC"
+    },
+    "110": {
+      "name": "Smitten Kitten Findus Fluffypants",
+      "breed": "BL"
+    },
+    "310": {
+      "name": "Gimme Gimme Gimme de Chyoui Lhan",
+      "breed": "TA"
+    },
+    "112": {
+      "name": "May I Kiss You Guapa",
+      "breed": "HI"
+    },
+    "113": {
+      "name": "Songgwangsa Torisashi of Saigon",
+      "breed": "JL"
+    },
+    "115": {
+      "name": "Graziella de C'hacqueville",
+      "breed": "MC"
+    },
+    "116": {
+      "name": "Goldie de Laf",
+      "breed": "MC"
+    },
+    "122C": {
+      "name": "Galahad Actarus",
+      "breed": "MC"
+    },
+    "351": {
+      "name": "Fanette de Cleomont",
+      "breed": "DR"
+    },
+    "352": {
+      "name": "Febus de Viazie",
+      "breed": "OS"
+    },
+    "118": {
+      "name": "Garfield Royal Maine Coon Adorable",
+      "breed": "MC"
+    },
+    "154": {
+      "name": "Gulli de Ragakitty",
+      "breed": "RD"
+    },
+    "551": {
+      "name": "Falafel du Coeur Sauvage",
+      "breed": "CU"
+    },
+    "119": {
+      "name": "Madawaska's G'Un Truc",
+      "breed": "MC"
+    },
+    "154A": {
+      "name": "Romeo Faelis*CZ",
+      "breed": "RD"
+    },
+    "236": {
+      "name": "Mahadevishakti Aphrodisiac",
+      "breed": "SX"
+    },
+    "156": {
+      "name": "Mittelmeijer Roskoshniy Kot Mur",
+      "breed": "SB"
+    },
+    "157": {
+      "name": "Ayna'Nin Galius",
+      "breed": "TA"
+    }
+  },
+  "options": {
+    "printscore": "0",
+    "namewidth": 36,
+    "mixedcase": 1,
+    "colwidth": 3
+  },
+  "date": "June 23-24, 2012"
+}

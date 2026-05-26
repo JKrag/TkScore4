@@ -12,9 +12,6 @@ dist
 dist-ssr
 *.local
 
-# Test fixtures (generated — run: python3 tools/tks_to_json.py --batch)
-test-fixtures/
-
 # Python tooling venv
 tools/.venv/
 tools/__pycache__/
@@ -53,3 +50,4 @@ tools/__pycache__/
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
+.vercel

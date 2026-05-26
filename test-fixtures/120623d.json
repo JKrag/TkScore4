@@ -1,0 +1,1954 @@
+{
+  "email": "gerry806@gmail.com",
+  "location": "Peterborough, Cambridgeshire, UK",
+  "format": "2-day back-to-back",
+  "filename": "120623d.tks",
+  "entries": {
+    "359": {
+      "name": "Busykitz Dynamite Degataga",
+      "breed": "BS"
+    },
+    "001": {
+      "name": "Overear Stormy Weather",
+      "breed": "AL"
+    },
+    "002": {
+      "name": "Overear At Last",
+      "breed": "AL"
+    },
+    "010A": {
+      "name": "Kititas Orelia",
+      "breed": "MC"
+    },
+    "201": {
+      "name": "Stardustbengals Bacardi of Sanchita",
+      "breed": "BG"
+    },
+    "004": {
+      "name": "Firedevils Tipp Ex",
+      "breed": "MC"
+    },
+    "401": {
+      "name": "Bertie",
+      "breed": "HH"
+    },
+    "005": {
+      "name": "rydalmain Mulberry",
+      "breed": "MC"
+    },
+    "006": {
+      "name": "Migatobonito Crackling Sparkler",
+      "breed": "MC"
+    },
+    "014A": {
+      "name": "Brindie of Brumeux",
+      "breed": "NB"
+    },
+    "601": {
+      "name": "Firedevils P Pink Floyd",
+      "breed": "MC"
+    },
+    "403": {
+      "name": "Avalaviniagardner",
+      "breed": "HH"
+    },
+    "124": {
+      "name": "Sapphirensteel Asya",
+      "breed": "SB"
+    },
+    "014B": {
+      "name": "Oscian of Brumeux",
+      "breed": "NB"
+    },
+    "313A": {
+      "name": "Adsetlo Beyaz Aslan",
+      "breed": "TV"
+    },
+    "206": {
+      "name": "Crestwood Adonis of Wildernesswell",
+      "breed": "BG"
+    },
+    "125": {
+      "name": "Shadycombe Lovejoy",
+      "breed": "TV"
+    },
+    "405": {
+      "name": "Casco Socks",
+      "breed": "HH"
+    },
+    "360": {
+      "name": "Changes The London Boy",
+      "breed": "CR"
+    },
+    "126": {
+      "name": "Tansdale Amisti Aramis",
+      "breed": "TV"
+    },
+    "406": {
+      "name": "Nibler",
+      "breed": "HH"
+    },
+    "361": {
+      "name": "Lorrentino Givemesomelove",
+      "breed": "CR"
+    },
+    "407": {
+      "name": "Puffetty",
+      "breed": "HH"
+    },
+    "362": {
+      "name": "Lorrentino Lilyofthevalley",
+      "breed": "DR"
+    },
+    "363": {
+      "name": "Nidoran Zeus Galanof",
+      "breed": "DR"
+    },
+    "364": {
+      "name": "Magical Sir Bedevere",
+      "breed": "DR"
+    },
+    "228A": {
+      "name": "Kiabindhi Polar Sky",
+      "breed": "SN"
+    },
+    "366": {
+      "name": "Zendique When Will I Be Famous",
+      "breed": "ES"
+    },
+    "058B": {
+      "name": "Riverfern Isabel",
+      "breed": "BG"
+    },
+    "367": {
+      "name": "Yukiusagi Suzume",
+      "breed": "JB"
+    },
+    "369": {
+      "name": "Flutterby The Alchemist",
+      "breed": "SI"
+    },
+    "211": {
+      "name": "Seregon Severiano Sandiargo",
+      "breed": "BG"
+    },
+    "310A": {
+      "name": "Phatpaws Clufort Wegwood",
+      "breed": "RD"
+    },
+    "014": {
+      "name": "Somersisle Pussy Willow",
+      "breed": "MC"
+    },
+    "213": {
+      "name": "Junglefire Meteora",
+      "breed": "BG"
+    },
+    "051": {
+      "name": "Purebliss Obsession",
+      "breed": "BG"
+    },
+    "015": {
+      "name": "GBCharismakat Polar Star",
+      "breed": "NF"
+    },
+    "016": {
+      "name": "Boucles Monsieur Tibault",
+      "breed": "SL"
+    },
+    "215": {
+      "name": "Decorus Bellator",
+      "breed": "BG"
+    },
+    "053": {
+      "name": "Palnihills Dreamcatcher",
+      "breed": "BG"
+    },
+    "018": {
+      "name": "Bedazzlecats Zsa Zsa",
+      "breed": "SL"
+    },
+    "451": {
+      "name": "Bandit",
+      "breed": "HH"
+    },
+    "370": {
+      "name": "Flutterby Adventurer",
+      "breed": "SI"
+    },
+    "306A": {
+      "name": "Koonikki The Apprentice",
+      "breed": "MC"
+    },
+    "055": {
+      "name": "Sparklespots Sir Swiper",
+      "breed": "BG"
+    },
+    "452": {
+      "name": "Ziggy Stardust",
+      "breed": "HH"
+    },
+    "371": {
+      "name": "Flutterby Heaven Can Wait",
+      "breed": "SI"
+    },
+    "219": {
+      "name": "Ycoed Sir Lancerlot",
+      "breed": "BG"
+    },
+    "454": {
+      "name": "Chino",
+      "breed": "HH"
+    },
+    "373": {
+      "name": "Glittakitz Micky Blue Eyes",
+      "breed": "SN"
+    },
+    "217C": {
+      "name": "Ycoed Betsy Boo",
+      "breed": "BG"
+    },
+    "058": {
+      "name": "Owlsdene Fredastaire",
+      "breed": "BG"
+    },
+    "455": {
+      "name": "Hamish of Seregon",
+      "breed": "HH"
+    },
+    "374": {
+      "name": "Advish Ice Maiden",
+      "breed": "SN"
+    },
+    "059": {
+      "name": "Authenticats Opal Bronze Soleil",
+      "breed": "BG"
+    },
+    "456": {
+      "name": "Dolce",
+      "breed": "HH"
+    },
+    "457": {
+      "name": "Corporal Carrot",
+      "breed": "HH"
+    },
+    "376": {
+      "name": "Purebliss Leonardo Di Vinci",
+      "breed": "SV"
+    },
+    "458": {
+      "name": "Louis",
+      "breed": "HH"
+    },
+    "377": {
+      "name": "Mistymogwai Woody",
+      "breed": "TG"
+    },
+    "459": {
+      "name": "Sullywoollydoodah",
+      "breed": "HH"
+    },
+    "101": {
+      "name": "Overear Dontsitundertheappletree",
+      "breed": "AL"
+    },
+    "102": {
+      "name": "Danleigh Orion",
+      "breed": "BI"
+    },
+    "103": {
+      "name": "Panjandrum Fuego",
+      "breed": "BI"
+    },
+    "220": {
+      "name": "Bumpkin The Doctor",
+      "breed": "BS"
+    },
+    "301": {
+      "name": "Overear Whenyouwishuponastar",
+      "breed": "AL"
+    },
+    "104": {
+      "name": "Ulalume Dejlige Dhoolish",
+      "breed": "CY"
+    },
+    "121A": {
+      "name": "Bellapalazzo Lekker Ding",
+      "breed": "RD"
+    },
+    "221": {
+      "name": "Pampurred Ultimate Force",
+      "breed": "BS"
+    },
+    "501": {
+      "name": "Sphynxhaven Anubis",
+      "breed": "DH"
+    },
+    "060": {
+      "name": "Orchidhouse Sugar Plum Fairy",
+      "breed": "BG"
+    },
+    "222": {
+      "name": "Wyrewood Widget",
+      "breed": "DR"
+    },
+    "303": {
+      "name": "Trouillord Allknight Long",
+      "breed": "HI"
+    },
+    "502": {
+      "name": "Xotikatz Midas",
+      "breed": "SE"
+    },
+    "223": {
+      "name": "Consuelo Stargazer At Tarjjika",
+      "breed": "EM"
+    },
+    "304": {
+      "name": "Chandalini Samstown",
+      "breed": "MC"
+    },
+    "503": {
+      "name": "Xotikatz Sahara",
+      "breed": "SE"
+    },
+    "224": {
+      "name": "Biboukatz Manabu",
+      "breed": "ES"
+    },
+    "305": {
+      "name": "Woodycoon Cape Rosier",
+      "breed": "MC"
+    },
+    "063": {
+      "name": "Stanrex Mowleah",
+      "breed": "DR"
+    },
+    "108": {
+      "name": "Spirrritz Tartan Trembler",
+      "breed": "MC"
+    },
+    "225": {
+      "name": "La Fonteyn's Darlena/ID",
+      "breed": "ES"
+    },
+    "306": {
+      "name": "Somersisle Storm Cloud",
+      "breed": "MC"
+    },
+    "460": {
+      "name": "Pikwick",
+      "breed": "HH"
+    },
+    "064": {
+      "name": "Bargello Maserati of Stanrex",
+      "breed": "DR"
+    },
+    "109": {
+      "name": "Somersisle Syrah",
+      "breed": "MC"
+    },
+    "226": {
+      "name": "Mogalo Gianfranco Ferre",
+      "breed": "OS"
+    },
+    "307": {
+      "name": "Raffkin Talllahasse Talulah",
+      "breed": "NF"
+    },
+    "227": {
+      "name": "Alario Eysling",
+      "breed": "SI"
+    },
+    "308": {
+      "name": "Siskadell Dashing Dandy",
+      "breed": "NF"
+    },
+    "066": {
+      "name": "Osterfern Naughty But Nice",
+      "breed": "OS"
+    },
+    "228": {
+      "name": "Cats4me Gellow",
+      "breed": "SI"
+    },
+    "309": {
+      "name": "Trappistini Theodore Kai",
+      "breed": "NF"
+    },
+    "067": {
+      "name": "Sensay Annie Getyourgun",
+      "breed": "OS"
+    },
+    "068": {
+      "name": "Flutterby Florenceida",
+      "breed": "SI"
+    },
+    "375A": {
+      "name": "Amazolou The New Schmoo",
+      "breed": "SR"
+    },
+    "111": {
+      "name": "Meadowmaines Boston",
+      "breed": "MC"
+    },
+    "310": {
+      "name": "Heathrose Barney Rubble",
+      "breed": "PS"
+    },
+    "230": {
+      "name": "Skyota Kiyonari",
+      "breed": "SR"
+    },
+    "311": {
+      "name": "Snowgum Spirit",
+      "breed": "SB"
+    },
+    "114": {
+      "name": "Kajulaz Della",
+      "breed": "NF"
+    },
+    "231": {
+      "name": "Misfits Eric Northman",
+      "breed": "SX"
+    },
+    "312": {
+      "name": "Alexandrite Akiro",
+      "breed": "SB"
+    },
+    "115": {
+      "name": "Du Monet Iced Diamond of Mystere",
+      "breed": "PS"
+    },
+    "070": {
+      "name": "Ramilypan Santa Baby",
+      "breed": "SX"
+    },
+    "071": {
+      "name": "Mistymogwai Golden Snitch",
+      "breed": "TG"
+    },
+    "233": {
+      "name": "Adelfsh John Lennon",
+      "breed": "SX"
+    },
+    "234": {
+      "name": "Wrynkleskyns Jingle All The Way",
+      "breed": "SX"
+    },
+    "351": {
+      "name": "Sensay Ginja Ninja",
+      "breed": "AB"
+    },
+    "352": {
+      "name": "Guyus Towanreef Fearghus",
+      "breed": "BG"
+    },
+    "119": {
+      "name": "Mystere St Elmos Fire",
+      "breed": "PS"
+    },
+    "353": {
+      "name": "Typhast Orianna",
+      "breed": "BG"
+    },
+    "356": {
+      "name": "Junglefire Silver Spirit",
+      "breed": "BG"
+    }
+  },
+  "nshows": "0",
+  "reporter": "Gerry Smith",
+  "options": {
+    "namewidth": 36,
+    "printscore": "0",
+    "mixedcase": 0,
+    "colwidth": 3
+  },
+  "shows": [
+    {
+      "label": "Saturday",
+      "nrings": 6,
+      "judges": {
+        "MC": "Martine Caillard",
+        "KV": "Kurt Vlach",
+        "CW": "Connie Webb",
+        "TV": "Tomoko Vlach",
+        "JA": "Jane Allen",
+        "BB": "Brigitte Berthelon"
+      },
+      "rings": [
+        {
+          "name": "Connie Webb",
+          "congress": "0",
+          "finals": {
+            "KIT": {
+              "count": 35,
+              "rank": [
+                "067",
+                "058",
+                "068",
+                "014",
+                "002",
+                "015",
+                "006",
+                "004",
+                "070",
+                "016"
+              ]
+            },
+            "CAT": {
+              "count": 57,
+              "rank": [
+                220,
+                "121A",
+                225,
+                234,
+                109,
+                119,
+                222,
+                103,
+                126,
+                213
+              ]
+            },
+            "HHP": {
+              "count": 12,
+              "rank": [
+                406,
+                452,
+                454,
+                405,
+                459,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NBP": {
+              "count": 2,
+              "rank": [
+                501
+              ]
+            },
+            "ALT": {
+              "count": 31,
+              "rank": [
+                "310A",
+                312,
+                305,
+                301,
+                366,
+                370,
+                361,
+                377,
+                362,
+                367
+              ]
+            },
+            "HHK": {
+              "count": 1,
+              "rank": [
+                451,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NTR": {
+              "count": 1,
+              "rank": [
+                601
+              ]
+            }
+          },
+          "absp": "AB",
+          "classes": {
+            "HHP": 1,
+            "NBP": 1,
+            "ALT": 1,
+            "NBA": "0",
+            "NTR": 1,
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": 1
+          },
+          "judge": "CW"
+        },
+        {
+          "name": "Martine Caillard",
+          "congress": "0",
+          "finals": {
+            "KIT": {
+              "count": 36,
+              "rank": [
+                "051",
+                "014",
+                "066",
+                "058",
+                "002",
+                "059",
+                "018",
+                "015",
+                "063",
+                "014B"
+              ]
+            },
+            "CAT": {
+              "count": 56,
+              "rank": [
+                119,
+                230,
+                115,
+                234,
+                "217C",
+                109,
+                220,
+                "121A",
+                223,
+                104
+              ]
+            },
+            "HHP": {
+              "count": 12,
+              "rank": [
+                454,
+                405,
+                452,
+                456,
+                403,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NBP": {
+              "count": 2,
+              "rank": [
+                502
+              ]
+            },
+            "ALT": {
+              "count": 31,
+              "rank": [
+                "310A",
+                366,
+                371,
+                310,
+                352,
+                301,
+                "313A",
+                312,
+                376,
+                377
+              ]
+            },
+            "HHK": {
+              "count": 1,
+              "rank": [
+                451,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NTR": {
+              "count": 1,
+              "rank": [
+                601
+              ]
+            }
+          },
+          "absp": "AB",
+          "classes": {
+            "HHP": 1,
+            "NBP": 1,
+            "ALT": 1,
+            "NBA": "0",
+            "NTR": 1,
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": 1
+          },
+          "judge": "MC"
+        },
+        {
+          "name": "Kurt Vlach",
+          "congress": "0",
+          "finals": {
+            "KIT": {
+              "count": 35,
+              "rank": [
+                "016",
+                "067",
+                "068",
+                "058B",
+                "066",
+                "014",
+                "018",
+                "010A",
+                "002",
+                "070"
+              ]
+            },
+            "CAT": {
+              "count": 55,
+              "rank": [
+                111,
+                201,
+                234,
+                119,
+                225,
+                227,
+                "121A",
+                230,
+                231,
+                102
+              ]
+            },
+            "HHP": {
+              "count": 12,
+              "rank": [
+                459,
+                401,
+                406,
+                407,
+                456,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NBP": {
+              "count": 2,
+              "rank": [
+                501
+              ]
+            },
+            "ALT": {
+              "count": 31,
+              "rank": [
+                308,
+                "310A",
+                352,
+                366,
+                312,
+                "306A",
+                360,
+                310,
+                362,
+                353
+              ]
+            },
+            "HHK": {
+              "count": 1,
+              "rank": [
+                451,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NTR": {
+              "count": 1,
+              "rank": [
+                601
+              ]
+            }
+          },
+          "absp": "AB",
+          "classes": {
+            "HHP": 1,
+            "NBP": 1,
+            "ALT": 1,
+            "NBA": "0",
+            "NTR": 1,
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": 1
+          },
+          "judge": "KV"
+        },
+        {
+          "name": "Tomoko Vlach",
+          "congress": "0",
+          "finals": {
+            "KIT": {
+              "count": 36,
+              "rank": [
+                "067",
+                "016",
+                "014",
+                "010A",
+                "064",
+                "058B",
+                "070",
+                "066",
+                "068",
+                "014A"
+              ]
+            },
+            "CAT": {
+              "count": 56,
+              "rank": [
+                "121A",
+                224,
+                119,
+                102,
+                230,
+                227,
+                201,
+                111,
+                126,
+                233
+              ]
+            },
+            "HHP": {
+              "count": 12,
+              "rank": [
+                407,
+                459,
+                405,
+                401,
+                452,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NBP": {
+              "count": 2,
+              "rank": [
+                502
+              ]
+            },
+            "ALT": {
+              "count": 31,
+              "rank": [
+                "313A",
+                310,
+                312,
+                "310A",
+                370,
+                352,
+                366,
+                309,
+                306,
+                364
+              ]
+            },
+            "HHK": {
+              "count": 1,
+              "rank": [
+                451,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NTR": {
+              "count": 1,
+              "rank": [
+                601
+              ]
+            }
+          },
+          "absp": "AB",
+          "classes": {
+            "HHP": 1,
+            "NBP": 1,
+            "ALT": 1,
+            "NBA": "0",
+            "NTR": 1,
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": 1
+          },
+          "judge": "TV"
+        },
+        {
+          "name": "Brigitte Berthelon",
+          "congress": "0",
+          "finals": {
+            "KIT": {
+              "count": 35,
+              "rank": [
+                "067",
+                "051",
+                "002",
+                "006",
+                "066",
+                "070",
+                "060",
+                "015",
+                "018",
+                "058B"
+              ]
+            },
+            "CAT": {
+              "count": 56,
+              "rank": [
+                "217C",
+                109,
+                "121A",
+                224,
+                201,
+                234,
+                119,
+                111,
+                114,
+                227
+              ]
+            },
+            "HHP": {
+              "count": 12,
+              "rank": [
+                455,
+                452,
+                403,
+                458,
+                459,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NBP": {
+              "count": 2,
+              "rank": [
+                501
+              ]
+            },
+            "ALT": {
+              "count": 31,
+              "rank": [
+                310,
+                366,
+                "310A",
+                "313A",
+                312,
+                370,
+                101,
+                307,
+                356,
+                "306A"
+              ]
+            },
+            "HHK": {
+              "count": 1,
+              "rank": [
+                451,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NTR": {
+              "count": 1,
+              "rank": [
+                601
+              ]
+            }
+          },
+          "absp": "AB",
+          "classes": {
+            "HHP": 1,
+            "NBP": 1,
+            "ALT": 1,
+            "NBA": "0",
+            "NTR": 1,
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": 1
+          },
+          "judge": "BB"
+        },
+        {
+          "name": "Jane Allen",
+          "congress": "0",
+          "finals": {
+            "SHKIT": {
+              "count": 21,
+              "rank": [
+                "066",
+                "068",
+                "070",
+                "067",
+                "055",
+                "064",
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHCAT": {
+              "count": 35,
+              "rank": [
+                220,
+                223,
+                211,
+                224,
+                230,
+                228,
+                225,
+                234,
+                215,
+                226
+              ]
+            },
+            "LHHHP": {
+              "count": 6,
+              "rank": [
+                405,
+                403,
+                406,
+                401,
+                407,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHNBP": {
+              "count": null,
+              "rank": [
+                null
+              ]
+            },
+            "LHALT": {
+              "count": 12,
+              "rank": [
+                310,
+                101,
+                "310A",
+                "306A",
+                312,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHHHK": {
+              "count": 1,
+              "rank": [
+                451,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHNTR": {
+              "count": 1,
+              "rank": [
+                601
+              ]
+            },
+            "SHNBP": {
+              "count": 2,
+              "rank": [
+                501
+              ]
+            },
+            "SHHHP": {
+              "count": 6,
+              "rank": [
+                459,
+                452,
+                455,
+                458,
+                456,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHKIT": {
+              "count": 14,
+              "rank": [
+                "014",
+                "018",
+                "002",
+                "014A",
+                "015",
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHCAT": {
+              "count": 21,
+              "rank": [
+                119,
+                "121A",
+                109,
+                115,
+                125,
+                103,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHALT": {
+              "count": 18,
+              "rank": [
+                370,
+                371,
+                352,
+                367,
+                363,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHHHK": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHNTR": {
+              "count": null,
+              "rank": [
+                null
+              ]
+            }
+          },
+          "absp": "SP",
+          "classes": {
+            "HHP": 1,
+            "NBP": 1,
+            "ALT": 1,
+            "NBA": "0",
+            "NTR": 1,
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": 1
+          },
+          "judge": "JA"
+        }
+      ]
+    },
+    {
+      "label": "Sunday",
+      "nrings": 6,
+      "judges": {
+        "MC": "Martine Caillard",
+        "KV": "Kurt Vlach",
+        "CW": "Connie Webb",
+        "TV": "Tomoko Vlach",
+        "JA": "Jane Allen",
+        "BB": "Brigitte Berthelon"
+      },
+      "rings": [
+        {
+          "name": "Connie Webb",
+          "congress": "0",
+          "finals": {
+            "KIT": {
+              "count": 38,
+              "rank": [
+                "067",
+                "068",
+                "058",
+                "010A",
+                "015",
+                "006",
+                "005",
+                "016",
+                "063",
+                "001"
+              ]
+            },
+            "CAT": {
+              "count": 55,
+              "rank": [
+                "121A",
+                119,
+                225,
+                111,
+                224,
+                228,
+                230,
+                "228A",
+                206,
+                115
+              ]
+            },
+            "HHP": {
+              "count": 14,
+              "rank": [
+                406,
+                407,
+                452,
+                454,
+                460,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NBP": {
+              "count": 4,
+              "rank": [
+                501
+              ]
+            },
+            "ALT": {
+              "count": 33,
+              "rank": [
+                312,
+                311,
+                301,
+                "310A",
+                359,
+                "375A",
+                370,
+                361,
+                362,
+                304
+              ]
+            },
+            "HHK": {
+              "count": 1,
+              "rank": [
+                451,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NTR": {
+              "count": 1,
+              "rank": [
+                601
+              ]
+            }
+          },
+          "absp": "AB",
+          "classes": {
+            "HHP": 1,
+            "NBP": 1,
+            "ALT": 1,
+            "NBA": "0",
+            "NTR": 1,
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": 1
+          },
+          "judge": "CW"
+        },
+        {
+          "name": "Martine Caillard",
+          "congress": "0",
+          "finals": {
+            "KIT": {
+              "count": 38,
+              "rank": [
+                "051",
+                "066",
+                "014",
+                "015",
+                "018",
+                "059",
+                "001",
+                "063",
+                "067",
+                "058B"
+              ]
+            },
+            "CAT": {
+              "count": 54,
+              "rank": [
+                227,
+                119,
+                234,
+                "217C",
+                115,
+                230,
+                "121A",
+                201,
+                109,
+                125
+              ]
+            },
+            "HHP": {
+              "count": 14,
+              "rank": [
+                452,
+                455,
+                405,
+                407,
+                457,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NBP": {
+              "count": 4,
+              "rank": [
+                502
+              ]
+            },
+            "ALT": {
+              "count": 33,
+              "rank": [
+                "310A",
+                366,
+                "375A",
+                "313A",
+                "306A",
+                309,
+                352,
+                310,
+                369,
+                373
+              ]
+            },
+            "HHK": {
+              "count": 1,
+              "rank": [
+                451,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NTR": {
+              "count": 1,
+              "rank": [
+                601
+              ]
+            }
+          },
+          "absp": "AB",
+          "classes": {
+            "HHP": 1,
+            "NBP": 1,
+            "ALT": 1,
+            "NBA": "0",
+            "NTR": 1,
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": 1
+          },
+          "judge": "MC"
+        },
+        {
+          "name": "Kurt Vlach",
+          "congress": "0",
+          "finals": {
+            "KIT": {
+              "count": 38,
+              "rank": [
+                "067",
+                "016",
+                "014",
+                "058B",
+                "018",
+                "068",
+                "006",
+                "001",
+                "066",
+                "051"
+              ]
+            },
+            "CAT": {
+              "count": 52,
+              "rank": [
+                111,
+                "121A",
+                201,
+                234,
+                227,
+                225,
+                221,
+                119,
+                230,
+                124
+              ]
+            },
+            "HHP": {
+              "count": 14,
+              "rank": [
+                457,
+                406,
+                407,
+                454,
+                405,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NBP": {
+              "count": 4,
+              "rank": [
+                503
+              ]
+            },
+            "ALT": {
+              "count": 32,
+              "rank": [
+                "310A",
+                366,
+                "375A",
+                352,
+                312,
+                "313A",
+                310,
+                373,
+                "306A",
+                362
+              ]
+            },
+            "HHK": {
+              "count": 1,
+              "rank": [
+                451,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NTR": {
+              "count": 1,
+              "rank": [
+                601
+              ]
+            }
+          },
+          "absp": "AB",
+          "classes": {
+            "HHP": 1,
+            "NBP": 1,
+            "ALT": 1,
+            "NBA": "0",
+            "NTR": 1,
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": 1
+          },
+          "judge": "KV"
+        },
+        {
+          "name": "Tomoko Vlach",
+          "congress": "0",
+          "finals": {
+            "KIT": {
+              "count": 38,
+              "rank": [
+                "016",
+                "067",
+                "014",
+                "068",
+                "058B",
+                "010A",
+                "064",
+                "015",
+                "001",
+                "071"
+              ]
+            },
+            "CAT": {
+              "count": 54,
+              "rank": [
+                "121A",
+                224,
+                230,
+                102,
+                201,
+                119,
+                111,
+                227,
+                109,
+                125
+              ]
+            },
+            "HHP": {
+              "count": 14,
+              "rank": [
+                460,
+                407,
+                452,
+                454,
+                405,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NBP": {
+              "count": 4,
+              "rank": [
+                503
+              ]
+            },
+            "ALT": {
+              "count": 33,
+              "rank": [
+                370,
+                "313A",
+                310,
+                352,
+                "310A",
+                312,
+                359,
+                309,
+                364,
+                "375A"
+              ]
+            },
+            "HHK": {
+              "count": 1,
+              "rank": [
+                451,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NTR": {
+              "count": 1,
+              "rank": [
+                601
+              ]
+            }
+          },
+          "absp": "AB",
+          "classes": {
+            "HHP": 1,
+            "NBP": 1,
+            "ALT": 1,
+            "NBA": "0",
+            "NTR": 1,
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": 1
+          },
+          "judge": "TV"
+        },
+        {
+          "name": "Brigitte Berthelon",
+          "congress": "0",
+          "finals": {
+            "KIT": {
+              "count": 38,
+              "rank": [
+                "067",
+                "051",
+                "015",
+                "014",
+                "058B",
+                "068",
+                "059",
+                "058",
+                "016",
+                "014B"
+              ]
+            },
+            "CAT": {
+              "count": 54,
+              "rank": [
+                "121A",
+                111,
+                "217C",
+                227,
+                224,
+                234,
+                109,
+                115,
+                125,
+                "228A"
+              ]
+            },
+            "HHP": {
+              "count": 14,
+              "rank": [
+                452,
+                455,
+                403,
+                401,
+                454,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NBP": {
+              "count": 4,
+              "rank": [
+                503
+              ]
+            },
+            "ALT": {
+              "count": 33,
+              "rank": [
+                366,
+                359,
+                "310A",
+                310,
+                "375A",
+                351,
+                373,
+                "306A",
+                312,
+                "313A"
+              ]
+            },
+            "HHK": {
+              "count": 1,
+              "rank": [
+                451,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "NTR": {
+              "count": 1,
+              "rank": [
+                601
+              ]
+            }
+          },
+          "absp": "AB",
+          "classes": {
+            "HHP": 1,
+            "NBP": 1,
+            "ALT": 1,
+            "NBA": "0",
+            "NTR": 1,
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": 1
+          },
+          "judge": "BB"
+        },
+        {
+          "name": "Jane Allen",
+          "congress": "0",
+          "finals": {
+            "SHKIT": {
+              "count": 19,
+              "rank": [
+                "068",
+                "066",
+                "055",
+                "067",
+                "053",
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHCAT": {
+              "count": 35,
+              "rank": [
+                223,
+                211,
+                221,
+                225,
+                219,
+                230,
+                234,
+                226,
+                227,
+                "228A"
+              ]
+            },
+            "LHHHP": {
+              "count": 7,
+              "rank": [
+                406,
+                405,
+                403,
+                401,
+                407,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHNBP": {
+              "count": null,
+              "rank": [
+                null
+              ]
+            },
+            "LHALT": {
+              "count": 13,
+              "rank": [
+                310,
+                303,
+                101,
+                "310A",
+                309,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHHHK": {
+              "count": 1,
+              "rank": [
+                451,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHNTR": {
+              "count": 1,
+              "rank": [
+                601
+              ]
+            },
+            "SHNBP": {
+              "count": 4,
+              "rank": [
+                501
+              ]
+            },
+            "SHHHP": {
+              "count": 7,
+              "rank": [
+                458,
+                457,
+                460,
+                454,
+                456,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHKIT": {
+              "count": 19,
+              "rank": [
+                "001",
+                "005",
+                "016",
+                "010A",
+                "015",
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHCAT": {
+              "count": 19,
+              "rank": [
+                "121A",
+                119,
+                108,
+                103,
+                115,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHALT": {
+              "count": 20,
+              "rank": [
+                359,
+                370,
+                352,
+                "375A",
+                374,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHHHK": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHNTR": {
+              "count": null,
+              "rank": [
+                null
+              ]
+            }
+          },
+          "absp": "SP",
+          "classes": {
+            "HHP": 1,
+            "NBP": 1,
+            "ALT": 1,
+            "NBA": "0",
+            "NTR": 1,
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": 1
+          },
+          "judge": "JA"
+        }
+      ]
+    },
+    {
+      "label": "",
+      "nrings": "0",
+      "rings": []
+    },
+    {
+      "label": "",
+      "nrings": "0",
+      "rings": []
+    },
+    {
+      "label": "",
+      "nrings": "0",
+      "rings": []
+    },
+    {
+      "label": "",
+      "nrings": "0",
+      "rings": []
+    }
+  ],
+  "date": "June 23-24, 2012",
+  "club": "Ragtime TICA"
+}

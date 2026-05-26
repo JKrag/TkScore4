@@ -1,0 +1,777 @@
+{
+  "email": "gerry806@gmail.com",
+  "format": "2-day double format",
+  "location": "Kokkola, Finland",
+  "filename": "120609d.tks",
+  "entries": {
+    "001": {
+      "name": "Aq-Bars Eddie of Lukkarinen",
+      "breed": "SB"
+    },
+    "101": {
+      "name": "Maikkilan Minnesota",
+      "breed": "MC"
+    },
+    "201": {
+      "name": "Hotchocolate Cleopatra",
+      "breed": "AB"
+    },
+    "301": {
+      "name": "Ftres Anoya Tigre",
+      "breed": "OL"
+    },
+    "103": {
+      "name": "Alwaro Gladiator",
+      "breed": "MC"
+    },
+    "201A": {
+      "name": "Hiesun Shadow Of Dragon",
+      "breed": "BG"
+    },
+    "202": {
+      "name": "Mirexin Cassius",
+      "breed": "DR"
+    },
+    "302": {
+      "name": "Celestial's Fallen Angel",
+      "breed": "RD"
+    },
+    "103A": {
+      "name": "Celestial's Nasty Girl",
+      "breed": "RD"
+    },
+    "104": {
+      "name": "Kikicats You Rock My World",
+      "breed": "RD"
+    },
+    "202A": {
+      "name": "Aamukasteen Zubr",
+      "breed": "ES"
+    },
+    "051": {
+      "name": "Rackarkatten's Faustino",
+      "breed": "AB"
+    },
+    "204": {
+      "name": "Loveoriental Cupido",
+      "breed": "OS"
+    },
+    "052": {
+      "name": "Kaotik Kiwi Klassik",
+      "breed": "OS"
+    },
+    "053": {
+      "name": "Orifame Leikillaan",
+      "breed": "OS"
+    },
+    "206": {
+      "name": "Delamon Deluxe Griffy",
+      "breed": "OS"
+    },
+    "207": {
+      "name": "Nindaranna Aengus Mach Niamh",
+      "breed": "RB"
+    },
+    "450A": {
+      "name": "Juulia",
+      "breed": "HH"
+    },
+    "352": {
+      "name": "Cornflakes Gimme Shelter",
+      "breed": "OS"
+    },
+    "452": {
+      "name": "Ukkonen",
+      "breed": "HH"
+    },
+    "450B": {
+      "name": "Misu",
+      "breed": "HH"
+    },
+    "353": {
+      "name": "Orifame Aurinkokuningas",
+      "breed": "OS"
+    },
+    "209": {
+      "name": "Pienpeto Morimi",
+      "breed": "TH"
+    },
+    "208A": {
+      "name": "Chai-Lai Nice Nicholas",
+      "breed": "SG"
+    },
+    "056": {
+      "name": "Himmeltinden's Madcon",
+      "breed": "SI"
+    },
+    "453": {
+      "name": "Elsa",
+      "breed": "HH"
+    },
+    "354": {
+      "name": "Feanorian Enterprise",
+      "breed": "OS"
+    },
+    "057": {
+      "name": "Pienpeto Outo Tulikko",
+      "breed": "TH"
+    },
+    "354A": {
+      "name": "Nindaranna Seamus Niamh",
+      "breed": "RB"
+    },
+    "356": {
+      "name": "Orifame Itseteossa",
+      "breed": "SI"
+    },
+    "357": {
+      "name": "Sultsinan Something Yammie",
+      "breed": "SI"
+    }
+  },
+  "nshows": "0",
+  "reporter": "Gerry Smith",
+  "options": {
+    "namewidth": 36,
+    "printscore": "0",
+    "mixedcase": 0,
+    "colwidth": 3
+  },
+  "shows": [
+    {
+      "label": "Saturday AM",
+      "nrings": 2,
+      "judges": {
+        "GB": "Geneviève Basquine",
+        "TA": "Thomas Andersen"
+      },
+      "rings": [
+        {
+          "name": "Geneviève Basquine",
+          "congress": "0",
+          "finals": {
+            "KIT": {
+              "count": 6,
+              "rank": [
+                "056",
+                "001",
+                "052",
+                "051",
+                "057",
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "CAT": {
+              "count": 16,
+              "rank": [
+                204,
+                207,
+                103,
+                "208A",
+                "202A",
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "HHP": {
+              "count": 4,
+              "rank": [
+                452,
+                "450B",
+                453,
+                "450A",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "ALT": {
+              "count": 8,
+              "rank": [
+                357,
+                302,
+                301,
+                "354A",
+                352,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          },
+          "absp": "AB",
+          "classes": {
+            "HHP": 1,
+            "NBP": "0",
+            "ALT": 1,
+            "NBA": "0",
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": "0"
+          },
+          "judge": "GB"
+        },
+        {
+          "name": "Thomas Andersen",
+          "congress": "0",
+          "finals": {
+            "KIT": {
+              "count": 6,
+              "rank": [
+                "056",
+                "001",
+                "052",
+                "057",
+                "053",
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "CAT": {
+              "count": 16,
+              "rank": [
+                207,
+                "202A",
+                204,
+                209,
+                103,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "HHP": {
+              "count": 4,
+              "rank": [
+                452,
+                "450A",
+                "450B",
+                453,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "ALT": {
+              "count": 8,
+              "rank": [
+                357,
+                353,
+                356,
+                301,
+                302,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          },
+          "absp": "AB",
+          "classes": {
+            "HHP": 1,
+            "NBP": "0",
+            "ALT": 1,
+            "NBA": "0",
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": "0"
+          },
+          "judge": "TA"
+        }
+      ]
+    },
+    {
+      "label": "Saturday PM",
+      "nrings": 2,
+      "judges": {
+        "GB": "Geneviève Basquine ",
+        "TA": "Thomas Andersen"
+      },
+      "rings": [
+        {
+          "name": "Geneviève Basquine ",
+          "congress": "0",
+          "finals": {
+            "SHKIT": {
+              "count": 5,
+              "rank": [
+                "056",
+                "057",
+                "052",
+                "051",
+                "053",
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHCAT": {
+              "count": 12,
+              "rank": [
+                207,
+                "208A",
+                204,
+                201,
+                "201A",
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHHHP": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHALT": {
+              "count": 2,
+              "rank": [
+                302,
+                301,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHHHP": {
+              "count": 4,
+              "rank": [
+                452,
+                "450B",
+                453,
+                "450A",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHALT": {
+              "count": 6,
+              "rank": [
+                357,
+                "354A",
+                353,
+                356,
+                352,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHCAT": {
+              "count": 4,
+              "rank": [
+                "103A",
+                103,
+                101,
+                104,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHKIT": {
+              "count": 1,
+              "rank": [
+                "001",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          },
+          "absp": "SP",
+          "classes": {
+            "HHP": 1,
+            "NBP": "0",
+            "ALT": 1,
+            "NBA": "0",
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": "0"
+          },
+          "judge": "GB"
+        },
+        {
+          "name": "Thomas Andersen",
+          "congress": "0",
+          "finals": {
+            "SHKIT": {
+              "count": 5,
+              "rank": [
+                "056",
+                "052",
+                "057",
+                "053",
+                "051",
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHCAT": {
+              "count": 12,
+              "rank": [
+                207,
+                "202A",
+                204,
+                209,
+                206,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHHHP": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHALT": {
+              "count": 2,
+              "rank": [
+                301,
+                302,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHHHP": {
+              "count": 4,
+              "rank": [
+                "450B",
+                452,
+                "450A",
+                453,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHALT": {
+              "count": 6,
+              "rank": [
+                357,
+                353,
+                356,
+                "354A",
+                352,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHCAT": {
+              "count": 4,
+              "rank": [
+                103,
+                101,
+                104,
+                "103A",
+                "",
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHKIT": {
+              "count": 1,
+              "rank": [
+                "001",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          },
+          "absp": "SP",
+          "classes": {
+            "HHP": 1,
+            "NBP": "0",
+            "ALT": 1,
+            "NBA": "0",
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": "0"
+          },
+          "judge": "TA"
+        }
+      ]
+    },
+    {
+      "label": "Sunday AM",
+      "nrings": 2,
+      "judges": {
+        "GB": "Geneviève Basquine",
+        "TA": "Thomas Andersen"
+      },
+      "rings": [
+        {
+          "name": "Geneviève Basquine",
+          "congress": "0",
+          "finals": {
+            "KIT": {
+              "count": 5,
+              "rank": [
+                "056",
+                "051",
+                "052",
+                "057",
+                "053",
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "CAT": {
+              "count": 13,
+              "rank": [
+                207,
+                "208A",
+                103,
+                201,
+                202,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "HHP": {
+              "count": 3,
+              "rank": [
+                452,
+                "450B",
+                453,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "ALT": {
+              "count": 8,
+              "rank": [
+                357,
+                302,
+                "354A",
+                353,
+                301,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          },
+          "absp": "AB",
+          "classes": {
+            "HHP": 1,
+            "NBP": "0",
+            "ALT": 1,
+            "NBA": "0",
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": "0"
+          },
+          "judge": "GB"
+        },
+        {
+          "name": "Thomas Andersen",
+          "congress": "0",
+          "finals": {
+            "KIT": {
+              "count": 5,
+              "rank": [
+                "052",
+                "056",
+                "057",
+                "053",
+                "051",
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "CAT": {
+              "count": 13,
+              "rank": [
+                "202A",
+                207,
+                204,
+                201,
+                209,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "HHP": {
+              "count": 3,
+              "rank": [
+                "450B",
+                453,
+                452,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "ALT": {
+              "count": 8,
+              "rank": [
+                357,
+                353,
+                354,
+                302,
+                "354A",
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          },
+          "absp": "AB",
+          "classes": {
+            "HHP": 1,
+            "NBP": "0",
+            "ALT": 1,
+            "NBA": "0",
+            "NTR": "0",
+            "KIT": 1,
+            "CAT": 1,
+            "HHK": "0"
+          },
+          "judge": "TA"
+        }
+      ]
+    },
+    {
+      "label": "",
+      "nrings": "0",
+      "rings": []
+    },
+    {
+      "label": "",
+      "nrings": "0",
+      "rings": []
+    },
+    {
+      "label": "",
+      "nrings": "0",
+      "rings": []
+    }
+  ],
+  "date": "June 9-10, 2012",
+  "club": "FINTICAt"
+}
