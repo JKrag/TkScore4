@@ -8,6 +8,8 @@ import {
 
 const props = defineProps<{ catalog: Catalog }>()
 
+const tableRef = ref<HTMLTableElement | null>(null)
+
 const activeShowIdx = ref(0)
 const activeClass = ref('')
 
@@ -29,7 +31,6 @@ const currentClass = computed(() => {
 
 function selectShow(idx: number) {
   activeShowIdx.value = idx
-  activeClass.value = ''
 }
 
 // Build column descriptors for the current show + class
@@ -63,6 +64,34 @@ function onCountInput(col: typeof columns.value[0], raw: string) {
 
 function onPlacementInput(col: typeof columns.value[0], slot: number, raw: string) {
   setPlacement(col.ring, col.key, slot - 1, raw)
+}
+
+function onNav(e: KeyboardEvent, col: number, row: number) {
+  const isForward = (e.key === 'Tab' && !e.shiftKey) || (e.key === 'Enter' && !e.shiftKey)
+  const isBack    = (e.key === 'Tab' && e.shiftKey)  || (e.key === 'Enter' && e.shiftKey)
+  if (!isForward && !isBack) return
+
+  e.preventDefault()
+
+  const numCols = columns.value.length
+  const MAX_ROW = 10
+
+  let nextCol = col
+  let nextRow = row + (isForward ? 1 : -1)
+
+  if (nextRow > MAX_ROW) {
+    nextRow = 1
+    nextCol = (col + 1) % numCols
+  } else if (nextRow < 0) {
+    nextRow = MAX_ROW
+    nextCol = (col - 1 + numCols) % numCols
+  }
+
+  const target = tableRef.value?.querySelector<HTMLInputElement>(
+    `input[data-col="${nextCol}"][data-row="${nextRow}"]`
+  )
+  target?.focus()
+  target?.select()
 }
 </script>
 
@@ -104,7 +133,7 @@ function onPlacementInput(col: typeof columns.value[0], slot: number, raw: strin
 
       <!-- Placement grid -->
       <div class="finals-wrapper">
-        <table class="finals-table">
+        <table class="finals-table" ref="tableRef">
           <thead>
             <!-- Ring name row -->
             <tr>
@@ -126,6 +155,9 @@ function onPlacementInput(col: typeof columns.value[0], slot: number, raw: strin
                   type="text"
                   :value="getCount(col)"
                   @input="onCountInput(col, ($event.target as HTMLInputElement).value)"
+                  @keydown="onNav($event, ci, 0)"
+                  :data-col="ci"
+                  data-row="0"
                   placeholder="—"
                   inputmode="numeric"
                 />
@@ -140,6 +172,9 @@ function onPlacementInput(col: typeof columns.value[0], slot: number, raw: strin
                   type="text"
                   :value="getRank(col, slot)"
                   @input="onPlacementInput(col, slot, ($event.target as HTMLInputElement).value)"
+                  @keydown="onNav($event, ci, slot)"
+                  :data-col="ci"
+                  :data-row="slot"
                   placeholder=""
                   inputmode="numeric"
                 />
