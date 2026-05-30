@@ -171,6 +171,37 @@ export function downloadReport(text: string, catalog: Catalog) {
   triggerDownload(text, makeSafeFilename(catalog, '.txt'), 'text/plain')
 }
 
+// ── File System Access API (Chrome 86+ including Android / ChromeOS) ──────────
+
+export const hasFileSystemAccess = 'showSaveFilePicker' in window
+
+/** Show a Save As picker and write the catalog. Returns the handle for future saves.
+ *  Throws AbortError if the user cancels — callers should ignore it. */
+export async function saveAsWithPicker(
+  catalog: Catalog,
+  suggestedName?: string,
+): Promise<FileSystemFileHandle> {
+  const handle = await window.showSaveFilePicker({
+    suggestedName: suggestedName ?? makeSafeFilename(catalog, '.json'),
+    types: [{ description: 'TkScore4 catalog', accept: { 'application/json': ['.json'] } }],
+  })
+  await writeToHandle(handle, catalog)
+  return handle
+}
+
+/** Write catalog to an existing file handle (Save, not Save As). */
+export async function saveToHandle(handle: FileSystemFileHandle, catalog: Catalog) {
+  await writeToHandle(handle, catalog)
+}
+
+async function writeToHandle(handle: FileSystemFileHandle, catalog: Catalog) {
+  const writable = await handle.createWritable()
+  await writable.write(JSON.stringify(catalog, null, 2))
+  await writable.close()
+}
+
+// ── Internal helpers ──────────────────────────────────────────────────────────
+
 function makeSafeFilename(catalog: Catalog, ext: string): string {
   const base = [catalog.club, catalog.date].filter(Boolean).join('-') || 'show'
   return base.replace(/[^a-z0-9._-]/gi, '_') + ext

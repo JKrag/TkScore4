@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "@types/node": "^24.12.3",
+    "@types/wicg-file-system-access": "^2023.10.7",
     "@vitejs/plugin-vue": "^6.0.6",
     "@vitest/coverage-v8": "^4.1.7",
     "@vue/test-utils": "^2.4.10",

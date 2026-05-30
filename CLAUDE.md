@@ -149,8 +149,14 @@ integer vs string cat IDs), error handling, file I/O, and a smoke test of all 9 
 
 ## Architecture notes
 
-- **No server.** All data lives in `localStorage` during a session. File I/O via the
-  browser File System Access API or `<input type="file">` for save/load.
+- **No server.** All data lives in `localStorage` during a session (auto-saved on every
+  change). File I/O uses the **File System Access API** (`showOpenFilePicker` /
+  `showSaveFilePicker`) in Chrome/Chromium (desktop, Android, ChromeOS). Firefox and other
+  unsupported browsers fall back to the legacy blob-download / `<input type="file">` path.
+  The returned `FileSystemFileHandle` is kept in memory for the session so Save can
+  overwrite the same file without a dialog; it is not persisted across page reloads.
+  Types: `@types/wicg-file-system-access` (dev dep); registered in `tsconfig.app.json`.
+  Key functions: `saveAsWithPicker`, `saveToHandle` in `src/catalog/index.ts`.
 - **No .tks writing required.** The app saves its own JSON format. Legacy files are
   import-only (via the converter or a future in-app import feature).
 - Vue 3 Composition API throughout (no Options API).

@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import { ref, watch, onMounted, onUnmounted } from 'vue'
+import { ref, watch, onMounted, onUnmounted, computed } from 'vue'
 import type { Catalog } from './scoring/types'
 import {
   newCatalog, saveToStorage, loadFromStorage, downloadCatalog, normalizeCatalog,
+  hasFileSystemAccess, saveAsWithPicker, saveToHandle,
 } from './catalog/index'
 import TabShowInfo from './components/TabShowInfo.vue'
 import TabRings from './components/TabRings.vue'
@@ -16,17 +17,21 @@ type Tab = typeof TABS[number]
 const catalog = ref<Catalog | null>(null)
 const activeTab = ref<Tab>('Show Info')
 const fileInput = ref<HTMLInputElement | null>(null)
+const fileHandle = ref<FileSystemFileHandle | null>(null)
 const currentFilename = ref<string | null>(null)
+const isDirty = ref(false)
+
+const displayFilename = computed(() => fileHandle.value?.name ?? currentFilename.value)
 
 // ── Persistence ───────────────────────────────────────────────────────────────
 
 onMounted(() => {
   const saved = loadFromStorage()
-  if (saved) catalog.value = saved
+  if (saved) { catalog.value = saved; isDirty.value = false }
 })
 
 watch(catalog, (val) => {
-  if (val) saveToStorage(val)
+  if (val) { saveToStorage(val); isDirty.value = true }
 }, { deep: true })
 
 // ── File operations ───────────────────────────────────────────────────────────
@@ -36,11 +41,31 @@ function doNew() {
     if (!confirm('Start a new show? Unsaved changes will be lost.')) return
   }
   catalog.value = newCatalog()
+  fileHandle.value = null
   currentFilename.value = null
+  isDirty.value = false
 }
 
-function doOpen() {
-  fileInput.value?.click()
+async function doOpen() {
+  if (hasFileSystemAccess) {
+    try {
+      const [handle] = await window.showOpenFilePicker({
+        types: [{ description: 'TkScore4 catalog', accept: { 'application/json': ['.json'] } }],
+      })
+      const file = await handle.getFile()
+      const text = await file.text()
+      catalog.value = normalizeCatalog(JSON.parse(text) as Catalog)
+      fileHandle.value = handle
+      currentFilename.value = handle.name
+      isDirty.value = false
+    } catch (e) {
+      if ((e as DOMException).name !== 'AbortError') {
+        alert('Could not read file — make sure it is a TkScore4 JSON catalog.')
+      }
+    }
+  } else {
+    fileInput.value?.click()
+  }
 }
 
 function onFileSelected(e: Event) {
@@ -50,7 +75,9 @@ function onFileSelected(e: Event) {
   reader.onload = (ev) => {
     try {
       catalog.value = normalizeCatalog(JSON.parse(ev.target!.result as string) as Catalog)
+      fileHandle.value = null
       currentFilename.value = file.name
+      isDirty.value = false
     } catch {
       alert('Could not read file — make sure it is a TkScore4 JSON catalog.')
     }
@@ -59,14 +86,38 @@ function onFileSelected(e: Event) {
   ;(e.target as HTMLInputElement).value = ''
 }
 
-function doSave() {
+async function doSave() {
   if (!catalog.value) return
-  downloadCatalog(catalog.value, currentFilename.value ?? undefined)
+  if (fileHandle.value) {
+    try {
+      await saveToHandle(fileHandle.value, catalog.value)
+      isDirty.value = false
+    } catch (e) {
+      if ((e as DOMException).name !== 'AbortError') {
+        alert('Save failed. Try Save As to choose a new location.')
+      }
+    }
+  } else {
+    await doSaveAs()
+  }
 }
 
-function doSaveAs() {
+async function doSaveAs() {
   if (!catalog.value) return
-  downloadCatalog(catalog.value)
+  if (hasFileSystemAccess) {
+    try {
+      const handle = await saveAsWithPicker(catalog.value, displayFilename.value ?? undefined)
+      fileHandle.value = handle
+      currentFilename.value = handle.name
+      isDirty.value = false
+    } catch (e) {
+      if ((e as DOMException).name !== 'AbortError') {
+        alert('Save failed.')
+      }
+    }
+  } else {
+    downloadCatalog(catalog.value, currentFilename.value ?? undefined)
+  }
 }
 
 // ── Keyboard shortcuts ────────────────────────────────────────────────────────
@@ -90,8 +141,9 @@ onUnmounted(() => window.removeEventListener('keydown', handleKey))
   <header class="app-header">
     <span class="app-title">TkScore4</span>
     <span v-if="catalog" class="app-filename">
-      {{ catalog.club || 'New Show' }}
-      <template v-if="catalog.date"> — {{ catalog.date }}</template>
+      <template v-if="displayFilename">{{ displayFilename }}</template>
+      <template v-else>{{ catalog.club || 'New Show' }}<template v-if="catalog.date"> — {{ catalog.date }}</template></template>
+      <span v-if="isDirty" class="dirty-indicator" title="Unsaved changes"> ●</span>
     </span>
     <div class="toolbar">
       <button class="btn" @click="doNew">New</button>
