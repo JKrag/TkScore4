@@ -1,0 +1,997 @@
+{
+  "reporter": "Malene Thykjær",
+  "email": "vikingcatstica@gmail.com",
+  "club": "Viking Cats",
+  "location": "Storebaelt",
+  "date": "30-31. may 2026",
+  "options": {
+    "namewidth": 36,
+    "colwidth": 3,
+    "mixedcase": 0,
+    "printscore": 0
+  },
+  "entries": {
+    "1": {
+      "name": "BEESTENBOEL BEEL ZEBUB",
+      "breed": "MC"
+    },
+    "2": {
+      "name": "SILVERDANCE ICE DROPS",
+      "breed": "PS"
+    },
+    "3": {
+      "name": "GRANDPURFECTION SLY LATTE MACCHIATO",
+      "breed": "RD"
+    },
+    "4": {
+      "name": "RICHESSE NUIT BRILLANTE",
+      "breed": "SB"
+    },
+    "5": {
+      "name": "HAVVANURS JUICY LUCY",
+      "breed": "TA"
+    },
+    "6": {
+      "name": "HAVVANURS JACKAROO",
+      "breed": "TA"
+    },
+    "51": {
+      "name": "ZANNO SPICE GIRL",
+      "breed": "BG"
+    },
+    "52": {
+      "name": "MIODOLLARBABY KINTSUGI",
+      "breed": "BG"
+    },
+    "53": {
+      "name": "CLEOPATRA (CLEO) LEOSBENGAL11",
+      "breed": "BG"
+    },
+    "54": {
+      "name": "TEMPLEBAR ISABELLA OF AMALURRA",
+      "breed": "BU"
+    },
+    "55": {
+      "name": "DK TIAMO MAI TAI TO SHINE/FI",
+      "breed": "KT"
+    },
+    "56": {
+      "name": "DK BADEANDEN JADWIGA",
+      "breed": "KT"
+    },
+    "57": {
+      "name": "THRILLERNIGHT HAUNT COUTURE",
+      "breed": "LY"
+    },
+    "58": {
+      "name": "NYX MAVRA CHANG",
+      "breed": "OS"
+    },
+    "59": {
+      "name": "NYX NATHAN BRAZIL",
+      "breed": "OS"
+    },
+    "60": {
+      "name": "CATVISION THE TRIBUTE",
+      "breed": "SV"
+    },
+    "61": {
+      "name": "SPOTSANDPOINTS TO MO",
+      "breed": "TH"
+    },
+    "62": {
+      "name": "SPOTSANDPOINTS SISU",
+      "breed": "TH"
+    },
+    "101": {
+      "name": "CHICHA'S FILBERT FLUMMOXED",
+      "breed": "MC"
+    },
+    "102": {
+      "name": "GIGANTCAT SOL",
+      "breed": "MCP"
+    },
+    "103": {
+      "name": "GIGANTCAT UPPS",
+      "breed": "MCP"
+    },
+    "104": {
+      "name": "LANCARROW DU CHAILLU",
+      "breed": "OL"
+    },
+    "105": {
+      "name": "THE LEGEND ANNE MARIE",
+      "breed": "PS"
+    },
+    "106": {
+      "name": "SILVERDANC EXAVIER ON ICE",
+      "breed": "PS"
+    },
+    "107": {
+      "name": "DKVANDOLL JUMBO JOLLY",
+      "breed": "RD"
+    },
+    "108": {
+      "name": "DKVANDOLL JUMBO JOSEPHINE",
+      "breed": "RD"
+    },
+    "109": {
+      "name": "VANDOLL QUARTS QUTIE",
+      "breed": "RD"
+    },
+    "110": {
+      "name": "DKVANDOLL HEARTMADE HEAVEN",
+      "breed": "RD"
+    },
+    "111": {
+      "name": "DOLLSPARADISE CHUCKY",
+      "breed": "RD"
+    },
+    "112": {
+      "name": "XENA F.R. LA DOUCE DE MIRKWOOD/LO",
+      "breed": "SRL"
+    },
+    "113": {
+      "name": "ANGEL CAKE DES DéMONS DU MIDI",
+      "breed": "SRL"
+    },
+    "114": {
+      "name": "MUSRAFY BETELGEUSE",
+      "breed": "SB"
+    },
+    "115": {
+      "name": "HAVVANURS I C U",
+      "breed": "TA"
+    },
+    "201": {
+      "name": "MIODOLLARBABY TAY",
+      "breed": "BG"
+    },
+    "202": {
+      "name": "ZANNO MASTER OBI WAN",
+      "breed": "BG"
+    },
+    "203": {
+      "name": "ZANNO CALVIN KLEIN",
+      "breed": "BG"
+    },
+    "204": {
+      "name": "DIVO BUGATTI LEOSBENGAL11",
+      "breed": "BG"
+    },
+    "205": {
+      "name": "SKADI DEL VALLE ALMANZORA",
+      "breed": "BG"
+    },
+    "206": {
+      "name": "BLUE WHITE DIAMONDS MARSHMALLOW",
+      "breed": "BS"
+    },
+    "207": {
+      "name": "SOPHIA VAN'T GOESENHOF",
+      "breed": "BS"
+    },
+    "208": {
+      "name": "TEMPLEBAR GUINNESS OF JUTLANDIA",
+      "breed": "BU"
+    },
+    "209": {
+      "name": "TEMPLEBAR HUGS A ND KISSES",
+      "breed": "BU"
+    },
+    "210": {
+      "name": "SE*CURLSETC. GOD SAVE THE QUEEN",
+      "breed": "CR"
+    },
+    "211": {
+      "name": "PRINCESS SACHIKO OF MAGICAT",
+      "breed": "JB"
+    },
+    "212": {
+      "name": "DK TIAMO GIN THERE, DONE THAT",
+      "breed": "KT"
+    },
+    "213": {
+      "name": "DK BADEANDEN SIDONïE",
+      "breed": "KT"
+    },
+    "214": {
+      "name": "SIFSAFS STARKAD",
+      "breed": "KT"
+    },
+    "215": {
+      "name": "SAVVYROGUES MERLOT OF CATVISION",
+      "breed": "SV"
+    },
+    "216": {
+      "name": "CATVISION INTO THE ABYSS",
+      "breed": "SV"
+    },
+    "217": {
+      "name": "LUCIUS",
+      "breed": "SCS"
+    },
+    "218": {
+      "name": "MAGIC THAI GOBLIN'S MONALISA/ WC",
+      "breed": "TH"
+    },
+    "219": {
+      "name": "LEGENDARYTHAI OR OCHIMARU OF CHESHIREPOINT",
+      "breed": "TH"
+    },
+    "302": {
+      "name": "GIGANTCAT HOPPSA",
+      "breed": "MCP"
+    },
+    "303": {
+      "name": "DK EUROPA’S LUNE AFRODITTE",
+      "breed": "NF"
+    },
+    "304": {
+      "name": "SILVERDANCE WHISKEY ON ICE",
+      "breed": "PS"
+    },
+    "305": {
+      "name": "THE VIRTUE MARIE",
+      "breed": "RD"
+    },
+    "306": {
+      "name": "HAVVANURS FANCY COWBOY",
+      "breed": "TA"
+    },
+    "310": {
+      "name": "GIGANTCAT NOHR",
+      "breed": "MCP"
+    },
+    "351": {
+      "name": "CATIKAS VOODOO",
+      "breed": "AB"
+    },
+    "352": {
+      "name": "KRONHEDE ROSAMUNDE",
+      "breed": "AB"
+    },
+    "353": {
+      "name": "THAR OREO COOKIE",
+      "breed": "BG"
+    },
+    "354": {
+      "name": "BATIFOLEUR S KINAI",
+      "breed": "BG"
+    },
+    "355": {
+      "name": "EBONYCATZ CRAZY HARLEY QUINN",
+      "breed": "BO"
+    },
+    "356": {
+      "name": "DK CHAGALL'S FRIKADELLEN",
+      "breed": "BS"
+    },
+    "357": {
+      "name": "SECURITAZZ JEWLZGALORE OF TEMPLEBAR",
+      "breed": "BU"
+    },
+    "358": {
+      "name": "S*CHAGRIS PARFAIT AMOUR",
+      "breed": "CR"
+    },
+    "359": {
+      "name": "DK BORDINGCAT'S LILO",
+      "breed": "ES"
+    },
+    "360": {
+      "name": "DK PRIMPRAU'S BADEANDEN FREDERIK",
+      "breed": "KT"
+    },
+    "361": {
+      "name": "DK PRIMPRAU'S DARLING DOT",
+      "breed": "KT"
+    },
+    "362": {
+      "name": "SIFSAFS BEOWULF",
+      "breed": "KT"
+    },
+    "363": {
+      "name": "LANCARROW MAZIKEEN",
+      "breed": "OS"
+    },
+    "364": {
+      "name": "LANCARROW SOLARIS",
+      "breed": "OS"
+    },
+    "365": {
+      "name": "TZARI THE YOUNG ONES",
+      "breed": "SR"
+    },
+    "401": {
+      "name": "THEIS REX",
+      "breed": ""
+    },
+    "402": {
+      "name": "OTHELLO",
+      "breed": ""
+    },
+    "451": {
+      "name": "TEMPLEBAR IRENE BAKKARA",
+      "breed": ""
+    }
+  },
+  "shows": [
+    {
+      "label": "Saturday AM",
+      "nrings": 4,
+      "rings": [
+        {
+          "judge": "MD",
+          "name": "Monika Dany",
+          "absp": "SP",
+          "congress": 0,
+          "classes": {
+            "KIT": 1,
+            "CAT": 1,
+            "HHP": 1,
+            "HHK": 1,
+            "ALT": 1,
+            "NTR": 0,
+            "NBA": 0,
+            "NBP": 0
+          },
+          "finals": {
+            "LHKIT": {
+              "count": null,
+              "rank": [
+                6,
+                3,
+                4,
+                1,
+                2,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHKIT": {
+              "count": null,
+              "rank": [
+                61,
+                54,
+                52,
+                56,
+                60,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHHHP": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHHHP": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHHHK": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHHHK": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHALT": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHALT": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHCAT": {
+              "count": null,
+              "rank": [
+                115,
+                101,
+                113,
+                109,
+                114,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHCAT": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          }
+        },
+        {
+          "judge": "KS",
+          "name": "Karen Stinson",
+          "absp": "AB",
+          "congress": 0,
+          "classes": {
+            "KIT": 1,
+            "CAT": 1,
+            "HHP": 1,
+            "HHK": 1,
+            "ALT": 1,
+            "NTR": 0,
+            "NBA": 0,
+            "NBP": 0
+          },
+          "finals": {
+            "KIT": {
+              "count": null,
+              "rank": [
+                54,
+                60,
+                6,
+                61,
+                "02",
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "HHP": {
+              "count": null,
+              "rank": [
+                402,
+                401,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "HHK": {
+              "count": null,
+              "rank": [
+                451,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "ALT": {
+              "count": null,
+              "rank": [
+                353,
+                364,
+                306,
+                305,
+                303,
+                304,
+                365,
+                359,
+                358,
+                361
+              ]
+            },
+            "CAT": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          }
+        },
+        {
+          "judge": "AK",
+          "name": "Andreas Kretschmer-Kraiczek",
+          "absp": "AB",
+          "congress": 0,
+          "classes": {
+            "KIT": 1,
+            "CAT": 1,
+            "HHP": 1,
+            "HHK": 1,
+            "ALT": 1,
+            "NTR": 0,
+            "NBA": 0,
+            "NBP": 0
+          },
+          "finals": {
+            "KIT": {
+              "count": null,
+              "rank": [
+                6,
+                54,
+                1,
+                62,
+                2,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "HHP": {
+              "count": null,
+              "rank": [
+                402,
+                401,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "HHK": {
+              "count": null,
+              "rank": [
+                451,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "ALT": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "CAT": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          }
+        },
+        {
+          "judge": "NF",
+          "name": "Nicki Fenwick-Raven",
+          "absp": "SP",
+          "congress": 0,
+          "classes": {
+            "KIT": 1,
+            "CAT": 1,
+            "HHP": 1,
+            "HHK": 1,
+            "ALT": 1,
+            "NTR": 0,
+            "NBA": 0,
+            "NBP": 0
+          },
+          "finals": {
+            "LHKIT": {
+              "count": null,
+              "rank": [
+                "01",
+                "04",
+                "06",
+                "03",
+                "02",
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHKIT": {
+              "count": null,
+              "rank": [
+                56,
+                61,
+                54,
+                51,
+                62,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHHHP": {
+              "count": null,
+              "rank": [
+                402,
+                401,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHHHP": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHHHK": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHHHK": {
+              "count": null,
+              "rank": [
+                451,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHALT": {
+              "count": null,
+              "rank": [
+                303,
+                306,
+                305,
+                301,
+                304,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHALT": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "LHCAT": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "SHCAT": {
+              "count": null,
+              "rank": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "label": "Saturday PM",
+      "nrings": 4,
+      "rings": [
+        {
+          "judge": "MD",
+          "name": "Monika Dany",
+          "absp": "AB",
+          "congress": 0,
+          "classes": {
+            "KIT": 1,
+            "CAT": 1,
+            "HHP": 1,
+            "HHK": 1,
+            "ALT": 1,
+            "NTR": 0,
+            "NBA": 0,
+            "NBP": 0
+          },
+          "finals": {}
+        },
+        {
+          "judge": "KS",
+          "name": "Karen Stinson",
+          "absp": "SP",
+          "congress": 0,
+          "classes": {
+            "KIT": 1,
+            "CAT": 1,
+            "HHP": 1,
+            "HHK": 1,
+            "ALT": 1,
+            "NTR": 0,
+            "NBA": 0,
+            "NBP": 0
+          },
+          "finals": {}
+        },
+        {
+          "judge": "AK",
+          "name": "Andreas Kretschmer-Kraiczek",
+          "absp": "SP",
+          "congress": 0,
+          "classes": {
+            "KIT": 1,
+            "CAT": 1,
+            "HHP": 1,
+            "HHK": 1,
+            "ALT": 1,
+            "NTR": 0,
+            "NBA": 0,
+            "NBP": 0
+          },
+          "finals": {}
+        },
+        {
+          "judge": "NF",
+          "name": "Nicki Fenwick-Raven",
+          "absp": "AB",
+          "congress": 0,
+          "classes": {
+            "KIT": 1,
+            "CAT": 1,
+            "HHP": 1,
+            "HHK": 1,
+            "ALT": 1,
+            "NTR": 0,
+            "NBA": 0,
+            "NBP": 0
+          },
+          "finals": {}
+        }
+      ]
+    },
+    {
+      "label": "Sunday",
+      "nrings": 4,
+      "rings": [
+        {
+          "judge": "MD",
+          "name": "Monika Dany",
+          "absp": "AB",
+          "congress": 0,
+          "classes": {
+            "KIT": 1,
+            "CAT": 1,
+            "HHP": 1,
+            "HHK": 1,
+            "ALT": 1,
+            "NTR": 0,
+            "NBA": 0,
+            "NBP": 0
+          },
+          "finals": {}
+        },
+        {
+          "judge": "KS",
+          "name": "Karen Stinson",
+          "absp": "AB",
+          "congress": 0,
+          "classes": {
+            "KIT": 1,
+            "CAT": 1,
+            "HHP": 1,
+            "HHK": 1,
+            "ALT": 1,
+            "NTR": 0,
+            "NBA": 0,
+            "NBP": 0
+          },
+          "finals": {}
+        },
+        {
+          "judge": "AK",
+          "name": "Andreas Kretschmer-Kraiczek",
+          "absp": "AB",
+          "congress": 0,
+          "classes": {
+            "KIT": 1,
+            "CAT": 1,
+            "HHP": 1,
+            "HHK": 1,
+            "ALT": 1,
+            "NTR": 0,
+            "NBA": 0,
+            "NBP": 0
+          },
+          "finals": {}
+        },
+        {
+          "judge": "NF",
+          "name": "Nicki Fenwick-Raven",
+          "absp": "AB",
+          "congress": 0,
+          "classes": {
+            "KIT": 1,
+            "CAT": 1,
+            "HHP": 1,
+            "HHK": 1,
+            "ALT": 1,
+            "NTR": 0,
+            "NBA": 0,
+            "NBP": 0
+          },
+          "finals": {}
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 import { ref, watch, onMounted, onUnmounted } from 'vue'
 import type { Catalog } from './scoring/types'
 import {
-  newCatalog, saveToStorage, loadFromStorage, downloadCatalog,
+  newCatalog, saveToStorage, loadFromStorage, downloadCatalog, normalizeCatalog,
 } from './catalog/index'
 import TabShowInfo from './components/TabShowInfo.vue'
 import TabRings from './components/TabRings.vue'
@@ -49,7 +49,7 @@ function onFileSelected(e: Event) {
   const reader = new FileReader()
   reader.onload = (ev) => {
     try {
-      catalog.value = JSON.parse(ev.target!.result as string) as Catalog
+      catalog.value = normalizeCatalog(JSON.parse(ev.target!.result as string) as Catalog)
       currentFilename.value = file.name
     } catch {
       alert('Could not read file — make sure it is a TkScore4 JSON catalog.')

@@ -99,8 +99,7 @@ export function setPlacement(ring: Ring, key: string, slot: number, raw: string)
     ring.finals[key].rank[slot] = null
     return
   }
-  const n = Number(raw)
-  ring.finals[key].rank[slot] = Number.isInteger(n) && String(n) === raw ? n : raw
+  ring.finals[key].rank[slot] = /^\d+$/.test(raw) ? Number(raw) : raw
 }
 
 /** Set the count for a finals slot. */
@@ -135,11 +134,25 @@ export function saveToStorage(catalog: Catalog) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(catalog))
 }
 
+/** Normalize rank arrays: any string that is pure digits becomes an integer. */
+export function normalizeCatalog(catalog: Catalog): Catalog {
+  for (const show of catalog.shows) {
+    for (const ring of show.rings) {
+      for (const finals of Object.values(ring.finals)) {
+        finals.rank = finals.rank.map(v =>
+          typeof v === 'string' && /^\d+$/.test(v) ? Number(v) : v
+        )
+      }
+    }
+  }
+  return catalog
+}
+
 export function loadFromStorage(): Catalog | null {
   const raw = localStorage.getItem(STORAGE_KEY)
   if (!raw) return null
   try {
-    return JSON.parse(raw) as Catalog
+    return normalizeCatalog(JSON.parse(raw) as Catalog)
   } catch {
     return null
   }

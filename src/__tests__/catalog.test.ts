@@ -1,7 +1,7 @@
 import {
   newCatalog, newRing, addRing, removeRing, addShow,
   finalsKeysFor, ensureFinalsSlot, setPlacement, initials,
-  activeClassesForShow,
+  activeClassesForShow, normalizeCatalog,
   catalogOrder, allEntryNumbers, isInFinals, setEntryName, setEntryBreed, addEntry, removeEntry,
 } from '../catalog/index'
 import { generateReport } from '../scoring/report'
@@ -61,6 +61,35 @@ describe('catalog helpers', () => {
     expect(ring.finals['CAT'].rank[1]).toBe('401A')
     setPlacement(ring, 'CAT', 2, '')
     expect(ring.finals['CAT'].rank[2]).toBeNull()
+  })
+
+  it('setPlacement normalizes leading-zero numeric strings to integers', () => {
+    const ring = newRing('J')
+    setPlacement(ring, 'KIT', 0, '01')
+    expect(ring.finals['KIT'].rank[0]).toBe(1)
+    setPlacement(ring, 'KIT', 1, '06')
+    expect(ring.finals['KIT'].rank[1]).toBe(6)
+  })
+
+  it('normalizeCatalog converts string digit rank values to integers', () => {
+    const c = newCatalog()
+    addRing(c, 0)
+    const ring = c.shows[0].rings[0]
+    ensureFinalsSlot(ring, 'LHKIT')
+    ring.finals['LHKIT'].rank = ['01', '04', '06', '03', '02', null, null, null, null, null]
+    normalizeCatalog(c)
+    expect(ring.finals['LHKIT'].rank).toEqual([1, 4, 6, 3, 2, null, null, null, null, null])
+  })
+
+  it('normalizeCatalog preserves alphanumeric string IDs', () => {
+    const c = newCatalog()
+    addRing(c, 0)
+    const ring = c.shows[0].rings[0]
+    ensureFinalsSlot(ring, 'CAT')
+    ring.finals['CAT'].rank = ['403A', 401, null, null, null, null, null, null, null, null]
+    normalizeCatalog(c)
+    expect(ring.finals['CAT'].rank[0]).toBe('403A')
+    expect(ring.finals['CAT'].rank[1]).toBe(401)
   })
 
   it('activeClassesForShow returns classes active in at least one ring', () => {
